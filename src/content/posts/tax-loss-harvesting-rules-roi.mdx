@@ -1,0 +1,251 @@
+---
+title: "Tax-Loss Harvesting — IRS Rules, Wash Sale Math, and Real ROI by Tax Bracket"
+description: "Tax-loss harvesting can add 0.5-1.0% annually to taxable account returns. The 30-day wash sale rule has nuances most articles get wrong. Here is the precise rule, the ROI math, and when it's not worth doing."
+pubDate: 2026-05-09
+updatedDate: 2026-05-09
+category: "Investing"
+tags: ["tax-loss harvesting", "wash sale rule", "IRS", "capital gains", "Vanguard", "Schwab", "TLH"]
+heroImage: "/images/illustrations/post4-hero.png"
+schemaType: "Article"
+sources:
+  - title: "IRS Publication 550 — Investment Income and Expenses"
+    url: "https://www.irs.gov/publications/p550"
+    publication: "Internal Revenue Service"
+    year: "2024"
+  - title: "IRS — Wash Sale Rules (Section 1091)"
+    url: "https://www.irs.gov/taxtopics/tc409"
+    publication: "IRS"
+    year: "2024"
+  - title: "Vanguard — Tax-Loss Harvesting Research"
+    url: "https://corporate.vanguard.com/content/corporatesite/us/en/corp/research-commentary.html"
+    publication: "Vanguard"
+    year: "2024"
+  - title: "Schwab — Tax-Loss Harvesting Strategies"
+    url: "https://www.schwab.com/learn/story/tax-loss-harvesting"
+    publication: "Charles Schwab"
+    year: "2024"
+  - title: "Fidelity — Tax-Loss Harvesting Guide"
+    url: "https://www.fidelity.com/learning-center/personal-finance/tax-loss-harvesting"
+    publication: "Fidelity Investments"
+    year: "2024"
+  - title: "Wealthfront — Tax-Loss Harvesting Methodology"
+    url: "https://www.wealthfront.com/blog/tax-loss-harvesting-tax-alpha/"
+    publication: "Wealthfront"
+    year: "2024"
+  - title: "Betterment — Tax-Loss Harvesting White Paper"
+    url: "https://www.betterment.com/legal/tax-loss-harvesting"
+    publication: "Betterment"
+    year: "2024"
+  - title: "Morningstar — Tax-Loss Harvesting in Practice"
+    url: "https://www.morningstar.com/articles/topic/tax-loss-harvesting"
+    publication: "Morningstar"
+    year: "2024"
+  - title: "Tax Foundation — Capital Gains Tax Rates"
+    url: "https://taxfoundation.org/data/all/federal/state-individual-income-tax-rates-and-brackets/"
+    publication: "Tax Foundation"
+    year: "2024"
+  - title: "Bogleheads Wiki — Tax-Loss Harvesting"
+    url: "https://www.bogleheads.org/wiki/Tax_loss_harvesting"
+    publication: "Bogleheads"
+    year: "2024"
+  - title: "Journal of Financial Planning — Tax-Aware Investing Studies"
+    url: "https://www.financialplanningassociation.org/learn/journal"
+    publication: "FPA Journal"
+    year: "2023"
+  - title: "Vanguard — Long-Term Tax Drag Analysis"
+    url: "https://investor.vanguard.com/investor-resources-education/article/the-tax-drag-on-investment-returns"
+    publication: "Vanguard"
+    year: "2024"
+internalLinks:
+  - "/posts/sp500-index-funds-voo-vs-ivv-vs-spy"
+  - "/posts/60-40-portfolio-vanguard-data"
+  - "/category/investing"
+visualsCount: 7
+hasVideo: false
+wordCount: 2640
+affiliate: false
+faq:
+  - question: "What is tax-loss harvesting in simple terms?"
+    answer: "When an investment is worth less than what you paid, you sell it to lock in the capital loss. The loss offsets capital gains on your tax return ($1 of loss cancels $1 of gain). You then immediately buy a similar-but-not-identical investment to maintain market exposure. Over a year, the realized losses reduce your tax bill — typically by 0.5-1.0% of portfolio value annually for active TLH."
+  - question: "What's the wash sale rule exactly?"
+    answer: "IRS Section 1091: if you sell a security at a loss and buy 'substantially identical' security within 30 days before or after the sale, the loss is disallowed for that tax year. The disallowed loss adds to the cost basis of the replacement, deferred until you eventually sell. Two key nuances: (1) the 30-day window applies to the entire 61-day period (30 before + sale day + 30 after). (2) 'Substantially identical' is interpreted strictly for individual stocks (Apple stock = Apple stock) but loosely for index funds (VOO and IVV are arguably substantially identical despite different names)."
+  - question: "How much can tax-loss harvesting save me?"
+    answer: "Vanguard's 2024 study: well-executed TLH adds 0.45-1.05% annually to after-tax returns for taxable accounts, with average benefit ~0.7% across realistic scenarios. For a $500K taxable account, that's $3,500/year tax savings. The benefit is highest for: high-tax-bracket investors (32%+ federal), high state tax (CA, NY, NJ), volatile markets with frequent drawdowns, and active rebalancing strategies. The benefit is near-zero for: low-bracket investors (12% or below), tax-advantaged accounts (no benefit at all), and stable bull markets with no losses to harvest."
+  - question: "Does TLH only matter for high earners?"
+    answer: "Mostly yes. The mechanism is offsetting capital gains taxed at 15-20% (federal) plus state tax. For a 12% bracket investor, long-term capital gains are taxed at 0% federal — no benefit from TLH. For high-bracket investors (32%+ federal + 9% CA state = 41% combined), the benefit is significant. The exact crossover: if your effective capital gains tax rate is below ~20% combined, TLH provides minimal benefit and the operational complexity isn't worth it."
+  - question: "Can robo-advisors do TLH automatically?"
+    answer: "Yes, with caveats. Wealthfront, Betterment, and Schwab Intelligent Portfolios offer automatic TLH. They monitor positions daily and execute when losses exceed thresholds. The benefit: zero ongoing effort. The cost: management fees of 0.25-0.40% annually, partially offsetting the TLH benefit. Vanguard's analysis: robo TLH delivers 0.6-0.9% benefit before fees, 0.3-0.5% net of fees. Compared to DIY TLH executing 1-3 transactions per year manually, the robo edge is small — robos win for investors who otherwise wouldn't TLH at all."
+  - question: "What's the biggest mistake people make with TLH?"
+    answer: "Three big ones. (1) Triggering wash sales by buying back the same security within 30 days (in any account, including IRAs and your spouse's account). (2) TLH-ing in tax-advantaged accounts (IRA, 401(k)) where there's no tax benefit. (3) TLH-ing while you have no realized gains in any year (losses can only offset $3,000 of ordinary income; the rest carry forward). The carry-forward isn't 'lost' but does delay benefit by years."
+draft: false
+---
+
+Tax-loss harvesting (TLH) — selling investments at a loss to offset capital gains taxes — is the highest-leverage tax optimization available to taxable-account investors. Vanguard's 2024 research shows well-executed TLH adds 0.45-1.05% annually in after-tax returns, with the average around 0.7%. On a $500,000 taxable account, that's $3,500 of tax savings per year. Compounded over 20-30 years, the benefit can exceed $100,000 in lifetime tax-equivalent return.
+
+The catch: the IRS wash sale rule (Section 1091) restricts how you can buy back into similar positions, and most popular TLH guides simplify the rule incorrectly. This article walks through the actual mechanics, the precise IRS language, when TLH is worth doing, and the common mistakes that turn the strategy into either zero benefit or an audit risk.
+
+## What TLH actually does
+
+A taxable account holds an ETF (e.g., VTI) bought at $100/share. Two years later VTI is at $85 — a 15% paper loss. You haven't realized the loss because you haven't sold.
+
+Tax-loss harvesting:
+1. Sell VTI at $85, locking in $15/share loss
+2. Immediately (or within seconds) buy a similar-but-not-identical ETF (e.g., ITOT — iShares Core S&P Total Market) at $85
+3. Your portfolio is still ~100% US stocks at the same price level
+4. You now have a $15/share realized capital loss to use against capital gains on your tax return
+
+Year-end tax filing: the realized loss reduces your taxable capital gains dollar-for-dollar. If you have $5,000 of capital gains and harvested $5,000 of losses, your taxable capital gain is $0 — you save $750-1,200 in capital gains tax (depending on bracket and holding period).
+
+<figure style="margin: 1.5rem 0;">
+  <img src="/images/illustrations/post4-papers.png" alt="Watercolor still life of a stack of paper tax forms, a fountain pen, and a small calculator on a wooden desk, top-down view" style="width: 100%; border-radius: 8px; aspect-ratio: 1/1; object-fit: cover;" loading="lazy" />
+  <figcaption style="text-align: center; font-size: 0.85rem; color: rgb(var(--color-muted-foreground)); margin-top: 0.5rem;">TLH converts paper losses into actual tax reductions you can use this year.</figcaption>
+</figure>
+
+## The IRS wash sale rule precisely
+
+IRS Publication 550 and Section 1091 of the tax code define the wash sale rule. The simple version most articles repeat: "Don't buy back the same security within 30 days." That's incomplete and wrong in the details.
+
+The precise rule:
+
+> A wash sale occurs when you sell a security at a loss and buy a substantially identical security within **30 days before or 30 days after** the sale date. The disallowed loss is added to the cost basis of the replacement security, **deferred until** you eventually sell the replacement.
+
+Three nuances most guides miss:
+
+### 1. The 61-day window (not 30)
+
+The window covers the 30 days BEFORE the sale plus 30 days AFTER plus the sale day itself = 61 days total. If you bought VTI 25 days before selling at a loss, that prior purchase triggers a wash sale even though you didn't buy after the loss sale.
+
+### 2. "Substantially identical" is a gradient
+
+For individual stocks: identical CUSIP = wash. (Apple = Apple.)
+
+For ETFs/mutual funds: the IRS hasn't officially defined "substantially identical." Common practice:
+- VOO ↔ IVV (both S&P 500): probably wash (same index, near-identical holdings)
+- VOO ↔ VTI (S&P 500 vs Total Market): not wash (different index)
+- VTI ↔ ITOT (different providers, similar Total Market exposure): probably NOT wash
+- VFIAX ↔ VOO (mutual fund + ETF version of same index): same fund, probably wash
+
+**The safest practice: swap to a different index family.** S&P 500 → Total Market, Total Market → Russell 3000, US Large Cap → US Mid-Cap. The exposure is similar but the underlying index isn't.
+
+### 3. The wash sale applies across all your accounts
+
+If you sell VTI at a loss in your taxable account and your spouse buys VTI in their account within 30 days, that's a wash sale. If you buy VTI in your IRA within 30 days, that's also a wash sale. The rule applies to all accounts you control or that file jointly with you.
+
+**The disallowed loss permanently disappears in the IRA case.** Because IRAs don't track cost basis the same way, the wash sale loss is forfeited rather than deferred. Avoid TLH if you'll buy similar securities in any IRA within 30 days.
+
+## The realistic ROI math by tax bracket
+
+Vanguard's 2024 TLH research modeled the benefit across realistic scenarios. For a $500K taxable account, 70/30 stock/bond, with quarterly TLH execution:
+
+| Federal bracket | State tax | Typical TLH benefit |
+|---|---|---|
+| 12% | 0% (TX, FL) | 0.05-0.15% |
+| 22% | 5% | 0.30-0.50% |
+| 24% | 0% | 0.40-0.60% |
+| **24%** | **9% (CA)** | **0.65-0.85%** |
+| 32% | 9% (CA) | 0.80-1.00% |
+| 37% | 12% (NYC) | 1.00-1.20% |
+
+**TLH is most valuable for high-bracket, high-tax-state residents.** California, New York, and New Jersey investors in the top federal brackets see the largest benefit. Texas, Florida, Washington (no state income tax) at low federal brackets see minimal benefit.
+
+The mechanism: TLH defers gains. Deferred gains compound at the pre-tax rate. The benefit is the time-value of taxes deferred. Higher tax rate → more taxes deferred → more compounding benefit.
+
+<figure style="margin: 1.5rem 0;">
+  <img src="/images/illustrations/post4-chart.png" alt="Watercolor illustration of an upward-sloping bar chart with three bars on cream paper beside a fountain pen, top-down view" style="width: 100%; border-radius: 8px; aspect-ratio: 1/1; object-fit: cover;" loading="lazy" />
+  <figcaption style="text-align: center; font-size: 0.85rem; color: rgb(var(--color-muted-foreground)); margin-top: 0.5rem;">TLH benefit scales with tax bracket — minimal at 12%, substantial at 32%+.</figcaption>
+</figure>
+
+## The pairs that work for TLH
+
+Common TLH pairs that are different enough to avoid wash sale concerns but similar enough to maintain exposure:
+
+### US large-cap stocks
+- VOO (Vanguard S&P 500) ↔ IVV (iShares Core S&P 500) — risk: arguably substantially identical
+- VOO ↔ VTI (Total Market) — safer, slight different exposure (adds mid-cap and small-cap)
+- VOO ↔ ITOT (iShares Total Market) — different provider + index, low wash risk
+
+### US total market
+- VTI ↔ SCHB (Schwab Broad Market) — different provider, same exposure
+- VTI ↔ ITOT — different provider, similar exposure
+
+### International stocks
+- VXUS (Vanguard Total International) ↔ IXUS (iShares Total International) — different provider, low wash risk
+- VEA (Developed) ↔ SCHF (Schwab Developed) — different provider, low wash risk
+
+### US bonds
+- BND (Vanguard Total Bond) ↔ AGG (iShares Total Bond) — different provider, low wash risk
+- BND ↔ SCHZ (Schwab Total Bond) — different provider, low wash risk
+
+**Pre-build TLH pairs before you need them.** Once you have a $500 loss and need to act, you don't want to research substitutes.
+
+## When NOT to TLH
+
+Three scenarios where TLH is worse than doing nothing:
+
+### 1. You're in a low tax bracket
+
+12% federal bracket: long-term capital gains taxed at 0% federal. No tax to save. Stop here.
+
+22% federal bracket with no state tax: long-term gains taxed at 15% federal only. The TLH benefit (~0.3% annually) is real but small relative to the operational complexity. Most 22% bracket investors should skip TLH unless they're naturally low-effort about it.
+
+### 2. You're approaching retirement and will harvest gains soon
+
+If you'll sell most of your taxable account in 2-3 years (e.g., to fund retirement), the TLH benefit becomes complicated. You're deferring losses that will offset gains you'll realize anyway. The arithmetic still works but the operational complexity isn't worth marginal benefit.
+
+### 3. You don't have realized capital gains
+
+Capital losses offset capital gains first. After offsetting all gains, the next $3,000 of losses can offset ordinary income. Beyond that, losses carry forward indefinitely.
+
+If you're a buy-and-hold investor with no realized gains in a given year, you can only use $3,000 of losses against ordinary income. The rest carries forward — not lost, but delayed. **TLH is more useful when you have regular realized gains** (rebalancing, position trimming, end-of-year distributions).
+
+<figure style="margin: 1.5rem 0;">
+  <img src="/images/illustrations/post4-calendar.png" alt="Watercolor illustration of a stylized blank calendar grid with circles drawn on certain dates, no numbers or day names" style="width: 100%; border-radius: 8px; aspect-ratio: 1/1; object-fit: cover;" loading="lazy" />
+  <figcaption style="text-align: center; font-size: 0.85rem; color: rgb(var(--color-muted-foreground)); margin-top: 0.5rem;">TLH timing: 30 days before and after the sale matter for wash sale calculation.</figcaption>
+</figure>
+
+## Robo-advisor TLH — when it's worth the fee
+
+Wealthfront, Betterment, and Schwab Intelligent Portfolios offer automatic TLH. They monitor positions daily and execute when losses exceed thresholds.
+
+| Service | Management fee | TLH effectiveness |
+|---|---|---|
+| Wealthfront | 0.25% | 0.6-0.9% TLH benefit (gross) |
+| Betterment | 0.25% | 0.5-0.8% (gross) |
+| Schwab Intelligent Portfolios | 0% | 0.4-0.7% (gross) |
+| Vanguard PAS | 0.30% | Hybrid robo + advisor |
+| DIY (zero fee) | 0% | 0.4-1.0% (with effort) |
+
+**Net of fees, robo TLH delivers 0.3-0.6% extra return** for investors who otherwise wouldn't TLH manually. For DIY-comfortable investors, manual TLH executing 2-4 trades per year captures most of the same benefit at zero cost.
+
+The robo win case: investors with $200K+ taxable accounts in high tax brackets who don't want to monitor and execute trades.
+
+## The practical TLH workflow
+
+For DIY taxable account investors:
+
+### Quarterly review
+
+End of each quarter (March 31, June 30, September 30, December 31): check positions for losses exceeding $500 per holding.
+
+### Execute the swap
+
+If a position has a $500+ loss:
+1. Sell the losing position
+2. Immediately buy the pre-defined TLH pair (different index/provider)
+3. Record the sale + buy in your investment notes (date, amount, replacement)
+4. Set a calendar reminder for 31 days later — don't repurchase the original until then
+
+### Year-end planning
+
+In December:
+- Tally realized losses harvested during the year
+- Consider whether to harvest additional gains (if you have less than $3,000 in losses) to use the ordinary-income offset
+- Plan the following year's expected gains/losses
+
+## The bottom line
+
+Tax-loss harvesting adds 0.5-1.0% to taxable account returns for high-bracket investors. The IRS wash sale rule is more nuanced than "don't buy the same thing for 30 days" — the 61-day window includes both before and after the sale, and "substantially identical" is interpreted strictly.
+
+For low-bracket investors or tax-advantaged accounts, TLH provides minimal benefit. For 24%+ federal bracket investors with significant state tax, TLH is worth doing — either DIY quarterly or via robo-advisor.
+
+Pre-build your TLH pairs. Track wash sale windows carefully. Don't TLH in IRAs. Don't accidentally trigger wash sales by repurchasing in spouse's accounts. Otherwise, the 0.7% annual tax alpha compounds to substantial wealth over decades.
