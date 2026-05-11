@@ -62,7 +62,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2740
-affiliate: false
+affiliate: true
 faq:
   - question: "What's the difference between VOO, IVV, and SPY?"
     answer: "All three track the S&P 500 index. VOO (Vanguard, 0.03% expense ratio) and IVV (iShares, 0.03%) are nearly identical for buy-and-hold investors. SPY (SPDR, 0.0945%) has higher expenses but better trading liquidity (3x daily volume of VOO). For long-term holders: VOO or IVV. For traders: SPY."
@@ -77,6 +77,9 @@ faq:
   - question: "Is the S&P 500 enough diversification?"
     answer: "It's 500 large US companies — significant but not complete diversification. Adds international exposure (VXUS) and bonds (BND or AGG) for full coverage. Bogleheads three-fund portfolio: VTI (total US) + VXUS (international) + BND (bonds). For simplicity, S&P 500 alone is reasonable but suboptimal for risk balance."
 ---
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
+
 
 The S&P 500 index fund is the default first investment for most US retail investors. Three funds dominate: Vanguard VOO, iShares IVV, and SPDR SPY. They all track the same index. The differences are in expense ratios, structure, and trading liquidity. This article uses S&P Dow Jones Indices data, Morningstar fund analysis, and Bogleheads wiki guidance to compare them on the metrics that actually matter for buy-and-hold investors.
 
@@ -204,3 +207,57 @@ For 2025 retail investors:
 5. **Don't switch** — the fund choice differences are smaller than the cost of switching.
 
 Most importantly, the difference between VOO and SPY is dwarfed by the difference between investing $200/month vs $400/month. Optimize contribution rate before optimizing fund selection.
+
+## Investing books that align with the index-fund evidence
+
+The S&P 500 index-fund case is built on decades of Bogle's research. Three books synthesize that evidence into actionable portfolio frameworks — they're the canon every serious index investor reads:
+
+<ProductBox
+  name="The Little Book of Common Sense Investing (John C. Bogle)"
+  priceHint="$15-22 — Bogle's index-fund manifesto"
+  pros={[
+    "Author founded Vanguard and invented the index fund — primary source",
+    "Updated 10th anniversary edition includes post-2008 data",
+    "Short, dense — read in a weekend, re-read annually"
+  ]}
+  cons={[
+    "Repetitive in places — Bogle reinforces key points across chapters",
+    "Some examples skew toward US-only investing (limited international coverage)"
+  ]}
+  href="https://www.amazon.com/s?k=Little+Book+of+Common+Sense+Investing+Bogle"
+  region="us"
+/>
+
+<ProductBox
+  name="The Bogleheads' Guide to Investing (Larimore, Lindauer, LeBoeuf)"
+  priceHint="$18-25 — community-distilled wisdom"
+  pros={[
+    "Comprehensive — covers IRAs, 401k, taxable accounts, and asset allocation",
+    "Written by Vanguard-community veterans, not Wall Street pros",
+    "Concrete action steps + portfolio templates"
+  ]}
+  cons={[
+    "Longer than Bogle's Little Book — denser reading",
+    "Tax-law specifics may need updating for current rules"
+  ]}
+  href="https://www.amazon.com/s?k=Bogleheads+Guide+to+Investing"
+  region="us"
+/>
+
+<ProductBox
+  name="A Random Walk Down Wall Street (Burton Malkiel)"
+  priceHint="$18-25 — academic foundation of efficient-markets case"
+  pros={[
+    "13th edition includes ETFs, crypto, and modern asset classes",
+    "Academic rigor — Princeton professor, decades of research",
+    "Strongest single defense of low-cost index investing in print"
+  ]}
+  cons={[
+    "Some technical jargon — slower reading than Bogle",
+    "Skip the first 100 pages on stock-picking history if pressed for time"
+  ]}
+  href="https://www.amazon.com/s?k=Random+Walk+Down+Wall+Street+Malkiel"
+  region="us"
+/>
+
+For first-time index investors, Bogle's Little Book is the starter (1 weekend). Add the Bogleheads' Guide for tactical implementation. Malkiel is for the year-2 investor who wants the deepest academic backing for their VOO holdings.
