@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2640
-affiliate: false
+affiliate: true
 faq:
   - question: "What is tax-loss harvesting in simple terms?"
     answer: "When an investment is worth less than what you paid, you sell it to lock in the capital loss. The loss offsets capital gains on your tax return ($1 of loss cancels $1 of gain). You then immediately buy a similar-but-not-identical investment to maintain market exposure. Over a year, the realized losses reduce your tax bill — typically by 0.5-1.0% of portfolio value annually for active TLH."
@@ -79,6 +79,9 @@ faq:
     answer: "Three big ones. (1) Triggering wash sales by buying back the same security within 30 days (in any account, including IRAs and your spouse's account). (2) TLH-ing in tax-advantaged accounts (IRA, 401(k)) where there's no tax benefit. (3) TLH-ing while you have no realized gains in any year (losses can only offset $3,000 of ordinary income; the rest carry forward). The carry-forward isn't 'lost' but does delay benefit by years."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 Tax-loss harvesting (TLH) — selling investments at a loss to offset capital gains taxes — is the highest-leverage tax optimization available to taxable-account investors. Vanguard's 2024 research shows well-executed TLH adds 0.45-1.05% annually in after-tax returns, with the average around 0.7%. On a $500,000 taxable account, that's $3,500 of tax savings per year. Compounded over 20-30 years, the benefit can exceed $100,000 in lifetime tax-equivalent return.
 
@@ -249,3 +252,57 @@ Tax-loss harvesting adds 0.5-1.0% to taxable account returns for high-bracket in
 For low-bracket investors or tax-advantaged accounts, TLH provides minimal benefit. For 24%+ federal bracket investors with significant state tax, TLH is worth doing — either DIY quarterly or via robo-advisor.
 
 Pre-build your TLH pairs. Track wash sale windows carefully. Don't TLH in IRAs. Don't accidentally trigger wash sales by repurchasing in spouse's accounts. Otherwise, the 0.7% annual tax alpha compounds to substantial wealth over decades.
+
+## Tax-loss harvesting and tax-aware investing books
+
+Tax-loss harvesting requires understanding wash-sale rules, cost-basis tracking, and ETF substitution mechanics. These three books cover the operational details retail brokerages don't fully document:
+
+<ProductBox
+  name="The White Coat Investor (Dr. James Dahle)"
+  priceHint="$20-28 — high-income tax-aware investing"
+  pros={[
+    "Strong sections on wash-sale, cost basis, and IRA contribution rules",
+    "Written for high-earners — applicable beyond medical professionals",
+    "Companion blog and podcast extend the book content"
+  ]}
+  cons={[
+    "Some medical-profession-specific sections are skippable",
+    "Tax law specifics need cross-checking against current year"
+  ]}
+  href="https://www.amazon.com/s?k=White+Coat+Investor+James+Dahle"
+  region="us"
+/>
+
+<ProductBox
+  name="Tax-Free Wealth (Tom Wheelwright)"
+  priceHint="$15-22 — Rich Dad advisor's tax-strategy primer"
+  pros={[
+    "Accessible introduction to tax-aware investing strategies",
+    "Covers deductions, deferrals, and entity selection clearly",
+    "Updated for current TCJA provisions"
+  ]}
+  cons={[
+    "Some strategies suit business owners more than W-2 employees",
+    "Rich-Dad ecosystem framing can feel salesy in places"
+  ]}
+  href="https://www.amazon.com/s?k=Tax-Free+Wealth+Tom+Wheelwright"
+  region="us"
+/>
+
+<ProductBox
+  name="The Bogleheads' Guide to Retirement Planning"
+  priceHint="$22-32 — retirement-account tax optimization"
+  pros={[
+    "Comprehensive coverage of Traditional vs Roth conversion math",
+    "RMD, Social Security timing, and tax-bracket arbitrage explained",
+    "Community-validated approaches — practical, not theoretical"
+  ]}
+  cons={[
+    "Heavy on rules — annual tax-law updates may shift specifics",
+    "US-only — no international tax treatment coverage"
+  ]}
+  href="https://www.amazon.com/s?k=Bogleheads+Guide+to+Retirement+Planning"
+  region="us"
+/>
+
+The White Coat Investor + Bogleheads' Retirement combo covers ~90% of practical tax-aware investing. Add Tax-Free Wealth only if you have small-business or rental income to optimize.
