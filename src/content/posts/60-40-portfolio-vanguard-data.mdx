@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2640
-affiliate: false
+affiliate: true
 faq:
   - question: "Did 2022 really kill the 60/40?"
     answer: "2022 was the worst single year for 60/40 in modern history — both stocks (-18%) and bonds (-13%) fell. Total 60/40 return: -16%. But Vanguard's analysis shows 2023 produced +18% for the same allocation, recovering nearly all of 2022's loss in one year. Across the 1976-2024 dataset, 2022 was a 1-in-50-year correlation event. The 60/40's primary feature — diversification through low-correlation assets — temporarily failed because both fell, but reverted to normal correlation patterns within 12 months."
@@ -79,6 +79,9 @@ faq:
     answer: "Three alternatives proposed post-2022. (1) Risk parity (Bridgewater All-Weather style): equal risk weights to stocks/bonds/commodities/inflation hedges. Complex, fees high. (2) Permanent Portfolio (Harry Browne): 25% stocks, 25% bonds, 25% gold, 25% cash. Lower returns historically. (3) Stocks + cash (no bonds): 70/30 equity/cash for retirees who don't trust bonds. Vanguard's analysis: none of these consistently beat 60/40 with global diversification on a risk-adjusted basis. The 60/40 isn't dead; 2022 was a tail event."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 In 2022, the 60/40 portfolio had its worst year in 50 years. Stocks fell 18%. Bonds fell 13%. The asset allocation that built American retirement plans suffered a -16% total return — and financial media declared the 60/40 dead. Two years later, Vanguard's full-cycle data shows the same allocation produced +18% in 2023 and another solid year in 2024. The 60/40 didn't die. It had a once-in-50-years correlation failure and recovered.
 
@@ -246,3 +249,57 @@ The 60/40 isn't dead. It had its worst year in 50 years in 2022, recovered subst
 For pre-retirees and retirees, 60/40 with 30-40% international diversification is the sensible default. Rebalance annually. Use low-cost index funds. Don't react to single-year results.
 
 The 2022 panic about 60/40's death was a behavioral failure to read 50 years of data. Don't make the next decade's decisions on the previous year's performance.
+
+## Asset allocation books worth reading before you tweak 60/40
+
+The 60/40 portfolio's resilience depends on understanding which assets correlate when and why. These three books cover the academic, the practical, and the historical perspectives:
+
+<ProductBox
+  name="The Four Pillars of Investing (William Bernstein)"
+  priceHint="$22-30 — academic foundation of asset allocation"
+  pros={[
+    "Bernstein bridges Wall Street, academic finance, and history brilliantly",
+    "Sample portfolios for different ages and risk tolerances",
+    "Updated 2023 edition includes recent decade data"
+  ]}
+  cons={[
+    "Dense — read alongside a notebook for diagrams",
+    "Some historical chapters can feel long for action-oriented readers"
+  ]}
+  href="https://www.amazon.com/s?k=Four+Pillars+of+Investing+Bernstein"
+  region="us"
+/>
+
+<ProductBox
+  name="All About Asset Allocation (Richard Ferri)"
+  priceHint="$22-30 — practical implementation guide"
+  pros={[
+    "Specific portfolio templates and rebalancing frameworks",
+    "Math-grounded but accessible — no PhD required",
+    "Strong section on REIT and TIPS as 60/40 enhancements"
+  ]}
+  cons={[
+    "US-centric examples — limited emerging-markets coverage",
+    "Some 2010-era ETF picks are outdated; concepts still hold"
+  ]}
+  href="https://www.amazon.com/s?k=All+About+Asset+Allocation+Richard+Ferri"
+  region="us"
+/>
+
+<ProductBox
+  name="The Intelligent Asset Allocator (William Bernstein)"
+  priceHint="$22-32 — Bernstein's deeper-dive companion"
+  pros={[
+    "More technical than Four Pillars — for the engineer-investor",
+    "Monte Carlo simulations and correlation analysis explained simply",
+    "Strong on Mean-Variance Optimization basics"
+  ]}
+  cons={[
+    "Heavy math sections require patience or skipping",
+    "Original 2000 edition — some chapters dated"
+  ]}
+  href="https://www.amazon.com/s?k=Intelligent+Asset+Allocator+Bernstein"
+  region="us"
+/>
+
+Read Bernstein's Four Pillars first (the why), then Ferri (the how). Save Intelligent Asset Allocator for when you want to model your own portfolio in a spreadsheet with rigor.
