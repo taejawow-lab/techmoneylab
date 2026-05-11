@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2580
-affiliate: false
+affiliate: true
 faq:
   - question: "Aren't dividends 'free money' on top of stock appreciation?"
     answer: "No — this is the most common misconception about dividends. When a company pays a dividend, the stock price drops by approximately the dividend amount on the ex-dividend date. The dividend isn't created from nothing; it's a transfer of existing value from share price to cash in your account. For taxable accounts, dividends are taxable when paid, even if you reinvest. Total return (price appreciation + dividends) is what matters, not dividend yield alone."
@@ -79,6 +79,9 @@ faq:
     answer: "Generally no, especially in the accumulation phase. The 'living off dividends' framework is more emotionally satisfying than mathematically optimal. Withdrawing 4% of total portfolio annually (Trinity Study 4% rule) produces near-identical retirement income whether the 4% comes from dividends, capital gains, or both. The retirement-income transition can shift to dividends at the moment of retirement, but using dividend ETFs during accumulation costs growth without providing real safety advantage."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The dividend-investing pitch is appealing: "Build a portfolio that pays you in retirement without selling shares." Dividend ETFs (SCHD, VYM, NOBL) and dividend Aristocrats indices generate $20,000-50,000 annually in income on a $1M portfolio, depending on yield. The framework feels safer — actual cash flowing in vs. selling shares to fund retirement.
 
@@ -229,3 +232,57 @@ The "dividends are free money" framing is wrong. Dividends transfer value from s
 Use dividend ETFs in retirement for income and emotional simplicity. Use total-return index funds during accumulation for tax efficiency and growth capture. Both approaches are mathematically defensible; the choice depends on your phase of life and tax situation.
 
 Don't switch to dividend strategies because the chart of yields looks reassuring. Run the after-tax math first.
+
+## Dividend investing books that respect the total-return math
+
+Most dividend-investing books are sales pitches dressed as advice. These three are evidence-grounded and acknowledge the total-return trade-offs.
+
+<ProductBox
+  name="The Single Best Investment (Lowell Miller)"
+  priceHint="$18-26 — quality-and-yield dividend framework"
+  pros={[
+    "Author's framework focuses on dividend growth, not just yield",
+    "Step-by-step screen for sustainable-payer identification",
+    "Acknowledges tax inefficiency in taxable accounts"
+  ]}
+  cons={[
+    "Some early-2000s examples are dated (companies have changed)",
+    "Math sections can feel pessimistic about index alternatives"
+  ]}
+  href="https://www.amazon.com/s?k=Single+Best+Investment+Lowell+Miller"
+  region="us"
+/>
+
+<ProductBox
+  name="The Dividend Growth Investment Strategy (Roxanne Fontaine)"
+  priceHint="$20-28 — practical screening guide"
+  pros={[
+    "Concrete metrics for screening dividend growth stocks",
+    "Discusses dividend cuts (frequently glossed over by competitors)",
+    "Spreadsheet templates available via author site"
+  ]}
+  cons={[
+    "Self-published — less editorial polish",
+    "US-centric examples — UK / EU readers may need translation"
+  ]}
+  href="https://www.amazon.com/s?k=Dividend+Growth+Investment+Strategy"
+  region="us"
+/>
+
+<ProductBox
+  name="The Intelligent Investor (Benjamin Graham)"
+  priceHint="$22-32 — value-investing foundation"
+  pros={[
+    "Foundational text — every dividend investor cites Graham's work",
+    "Revised edition with Jason Zweig commentary connects to modern markets",
+    "Margin-of-safety framework applies to dividend coverage analysis"
+  ]}
+  cons={[
+    "Long (500+ pages) — pace over months",
+    "Some examples are pre-1973 and feel dated; principles still hold"
+  ]}
+  href="https://www.amazon.com/s?k=Intelligent+Investor+Benjamin+Graham+revised"
+  region="us"
+/>
+
+Read Miller first for the dividend growth framework. Add Graham for the deeper foundation — the margin-of-safety lens makes you more resistant to yield-chasing in low-quality payers.
