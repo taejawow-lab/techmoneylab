@@ -58,7 +58,7 @@ faq:
     answer: "Statistical audit rates for typical returns are under 0.5 percent for incomes below 200,000 dollars and rise to 1 to 4 percent above 500,000 dollars. Most audits are correspondence audits resolved by mailing documentation, not field audits requiring representation. For typical incomes, paid audit defense (50 to 150 dollars annually) rarely pays for itself in expected value. For self-employed users or itemized-deduction filers with elevated audit risk, paid audit defense can make sense."
   - question: "Can I switch tax software year to year or does my data lock me in?"
     answer: "You can switch freely. Each year's filing imports the previous year's data from PDFs (a feature all major software supports). The only friction is some carryover items (capital loss carryforward, NOL, charitable contribution carryforward) requiring manual entry once. Switching pays off most for users whose situation changed — graduated from simple to complex, or vice versa."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,11 +68,21 @@ The right tax software depends entirely on your return complexity, and the cost 
 
 ## The Decision Matrix Most Articles Skip
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-tax-docs.png" alt="Person organizing tax documents in folders sorted by income and deductions" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 Tax software choice splits cleanly along return complexity. Three categories cover 95 percent of US individual tax filers. Simple returns (W-2 income, standard deduction, no investment activity, no self-employment) need free software — IRS Direct File, FreeTaxUSA federal-free, or Cash App Taxes. Moderate returns (W-2 plus standard or itemized deduction, investment sales with 1099-B, retirement contributions) work well with the 30-50 dollar paid tier of FreeTaxUSA or TaxAct. Complex returns (Schedule C, Schedule E, K-1s, multiple investment accounts, foreign income) typically need TurboTax or H&R Block at the 100-200 dollar tier for the import features and accuracy guarantees.
 
 The marketing language obscures this clean split. TurboTax aggressively advertises its premium tiers to users whose returns would be filed identically for free elsewhere. FreeTaxUSA understates its capability for moderate returns. H&R Block sits between but adds in-office filing options that have value for users wanting human review.
 
 ## Top Pick — Complex Returns
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-tax-efile.png" alt="E-file submission on laptop with checkmark confirmation screen" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="TurboTax Premier (Self-Employed for SE income)"
@@ -90,6 +100,11 @@ Second, TurboTax's accuracy on Schedule C and Schedule E filings (self-employmen
 
 ## Value Pick — Best Cost-To-Quality Ratio For Moderate Returns
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-tax-refund.png" alt="Tax refund direct deposit notification on smartphone with money symbol" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="FreeTaxUSA Deluxe"
   priceHint="Free federal / $14.99 state / $7.99 Deluxe upgrade"
@@ -105,6 +120,11 @@ FreeTaxUSA is the right choice for moderate-complexity returns where the user is
 The interview quality is the genuine surprise. Most "free" tax software interfaces are stripped-down compared to paid competitors; FreeTaxUSA's interview asks the same probing questions TurboTax does and surfaces the same deduction opportunities. The honest limitation is the lack of brokerage import. If your 1099-B is two pages or less, manual entry takes 10 to 20 minutes and the savings versus TurboTax Premier exceed 100 dollars. If your 1099-B is longer than three pages or contains crypto transactions, the manual-entry friction may justify TurboTax's import features.
 
 ## Free Pick — For Eligible Simple Returns
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-tax-itemize.png" alt="Itemized deduction worksheet with charity mortgage interest and state tax categories" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="IRS Direct File"
