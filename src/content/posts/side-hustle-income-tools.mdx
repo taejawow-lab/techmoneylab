@@ -58,7 +58,7 @@ faq:
     answer: "Yes, with two requirements. You must have self-employment income (1099 work, not W-2). And you cannot have employees other than your spouse. Solo 401k allows up to 23,000 dollars employee contribution (2026 limit) plus 25 percent of self-employment net income as employer contribution, with combined limit around 70,000 dollars. This is significantly more than IRA or SEP-IRA allows, making it the strongest retirement vehicle for high-income self-employed workers."
   - question: "What is the difference between 1099-NEC and 1099-K?"
     answer: "1099-NEC is issued by clients who paid you 600+ dollars for services during the year. 1099-K is issued by payment platforms (Stripe, PayPal, Venmo Business) that processed 5,000+ dollars in payments to you during the year (threshold reduced from 20,000 in 2024). The same income should not be reported twice; if a client pays you via PayPal and issues 1099-NEC, the 1099-K from PayPal may cover the same transactions and creates risk of double-counting. Tax software catches this; manual filing requires careful reconciliation."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,6 +68,11 @@ Side hustle income changed dramatically in the IRS landscape for 2024 and beyond
 
 ## The Three Stages Of Side Hustle Infrastructure
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c4-side-freelancer.png" alt="Freelancer receiving payment notification from various platform sources on tablet" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 Side hustle infrastructure scales in three distinct stages, each with different tool needs. Stage one (under 5,000 dollars annual side income) requires minimal infrastructure beyond a savings account dedicated to tax reserves. Tax software (TurboTax Self-Employed or FreeTaxUSA) handles 1099 income inside your normal annual filing. No business banking, no quarterly tax payments required unless you significantly underpay through withholding.
 
 Stage two (5,000 to 50,000 dollars annual side income) requires real infrastructure. Quarterly estimated tax payments become mandatory. A separate business bank account simplifies bookkeeping. Accounting software (typically FreshBooks or Wave Free tier) tracks income and expenses for Schedule C filing. Retirement contributions to a SEP IRA or Solo 401k start delivering meaningful tax savings.
@@ -75,6 +80,11 @@ Stage two (5,000 to 50,000 dollars annual side income) requires real infrastruct
 Stage three (50,000+ dollars annual side income) calls for proper business formation considerations and CPA engagement. LLC formation may make sense for liability reasons. Solo 401k contributions become substantial. S-Corp election may save self-employment taxes by paying yourself a reasonable W-2 salary while taking remaining profit as distribution. The tax and legal complexity at this stage rewards professional help; the marginal hours saved exceed CPA cost.
 
 ## Payment Platform — Where Most Side Hustlers Start
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c4-side-1099.png" alt="Tax preparation for freelance income with multiple platform statements organized" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Stripe + Stripe Express (for connected platforms)"
@@ -92,11 +102,21 @@ For side hustlers earning through platforms (Upwork, Uber, DoorDash, Substack, P
 
 ## Tax Reserve Strategy
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c4-side-quarterly.png" alt="Person tracking quarterly estimated tax payments for self-employment income on calendar" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The most important habit for any side hustler is automatic tax reserve transfer. Every payment received should trigger an automatic transfer of 25 to 35 percent (depending on your tax bracket) to a separate high-yield savings account dedicated to tax payments. This automation eliminates the year-end panic of discovering you owe thousands of dollars at filing time and ensures quarterly estimated payments are funded from existing reserves rather than current income.
 
 The mechanic: set up a checking account at the same bank as your business bank account, labeled "Tax Reserves." Configure your accounting software (FreshBooks, QuickBooks) to send a notification when payments arrive, then manually transfer the tax reserve percentage. Alternatively, services like Catch ([catch.co](https://example.com/catch)) automate this for freelancers by withholding tax-reserve percentages from incoming payments and depositing into a dedicated tax savings account at high yields. The friction reduction of automation increases the percentage of side hustlers who actually maintain tax reserves from roughly 40 percent (manual) to 85+ percent (automated) per industry surveys.
 
 ## Retirement Setup — The Biggest Tax Win
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c4-side-solo401k.png" alt="Solo 401k retirement account contribution for self-employed business owner" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Fidelity Solo 401k"
