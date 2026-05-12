@@ -58,7 +58,7 @@ faq:
     answer: "Coinbase is the simple consumer interface with spread-based pricing (1 to 2 percent total markup). Coinbase Advanced (formerly Pro) is the same exchange backend with professional interface and explicit maker-taker fees (0.00 to 0.40 percent). Both use the same account, same custody, same regulation; the difference is purely interface. For any trade above 100 dollars, Advanced saves money."
   - question: "Can I trade on a non-US exchange to access more tokens or lower fees?"
     answer: "It is technically possible via VPN but legally problematic for US residents. Major non-US exchanges (Binance, Bybit, OKX) explicitly geofence the US market. Using them violates the exchange terms of service and may trigger FATCA reporting requirements. The narrowly-listed tokens on US-regulated exchanges (Coinbase, Kraken, Gemini) generally include all market leaders; pushing into non-US exchanges for marginal token access creates compliance risk well above the trading benefit."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,6 +68,11 @@ Crypto exchange fees are the largest preventable cost in casual cryptocurrency i
 
 ## How Crypto Exchange Pricing Actually Works
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-crypto-wallet.png" alt="Hardware wallet device on desk beside laptop displaying crypto portfolio" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The displayed price on a crypto exchange is rarely the price you actually pay. Two cost layers add to the underlying market price. The first is the exchange's spread, applied as a markup over the wholesale buy price and a discount under the wholesale sell price. Consumer-friendly exchanges build the spread into the quoted price and call the trade "fee-free." This is misleading. The second is the explicit trading fee, typically displayed in basis points or percentages and applied above the spread. Advanced trading interfaces show wholesale prices and charge explicit fees only, which is the cheaper structure for any trade above 50 dollars.
 
 A second pricing detail matters for active traders. Maker-taker pricing rewards limit orders that add liquidity (maker) with lower fees and charges higher fees on market orders that remove liquidity (taker). The spread between maker and taker fees is typically 0.10 to 0.20 percentage points. For passive monthly buying, your orders are takers and you pay the taker rate. For careful traders, placing limit orders captures the maker discount and reduces costs by 30 to 50 percent.
@@ -75,6 +80,11 @@ A second pricing detail matters for active traders. Maker-taker pricing rewards 
 The third cost is the on-chain transaction fee when moving crypto out of the exchange to self-custody. This is paid in the underlying coin (BTC, ETH, etc.) to network miners or validators, not to the exchange. Costs vary with network congestion from a few cents on Solana to 5 to 30 dollars on Ethereum during high-demand periods. Plan transfers during off-peak hours when fees are typically half the peak rate.
 
 ## Top Pick — Best All-Round US-Regulated Exchange
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-crypto-send.png" alt="Person sending crypto transaction on smartphone with QR code wallet address" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Kraken (Kraken Pro Interface)"
@@ -92,6 +102,11 @@ Kraken's staking program supports ETH, ADA, DOT, and other proof-of-stake coins 
 
 ## Beginner Pick — Smoothest Onboarding And Account Recovery
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-crypto-fees.png" alt="Crypto trading fee comparison chart on laptop showing maker and taker rates" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="Coinbase Advanced"
   priceHint="0.00-0.40% maker / 0.05-0.60% taker"
@@ -107,6 +122,11 @@ Coinbase is the right starting exchange for a first-time crypto buyer who needs 
 The fee structure has two interfaces and you must use the right one. The default Coinbase consumer app uses spread pricing of roughly 1.5 percent per trade — this is the worst value in our test. Coinbase Advanced (accessed from the same account, separate interface at coinbase.com/advanced) charges explicit maker-taker fees of 0.05 to 0.60 percent, dramatically cheaper. Every Coinbase user should use Coinbase Advanced for any trade above 50 dollars. The Coinbase Card provides 1 percent cashback in any supported coin for crypto purchases of everyday goods, which is a genuine convenience feature when crypto holdings serve as supplementary spending money.
 
 ## Compliance Pick — Best For Cautious Institutional-Style Holders
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-crypto-2fa.png" alt="Two-factor authentication setup on smartphone with security key" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Gemini Active Trader"
