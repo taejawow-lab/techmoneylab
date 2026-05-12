@@ -58,7 +58,7 @@ faq:
     answer: "Yes, Betterment, Wealthfront, and most major robos offer ESG-tilted portfolios at no additional fee. The underlying funds use ESG-screened ETFs (SUSL, ESGV, ESGU among others) and the expense ratios run 0.10 to 0.15 percent higher than standard portfolios. Performance generally tracks within 1 percent annually versus non-ESG equivalents over 5-year periods."
   - question: "What is direct indexing and is it worth the higher fee at Wealthfront?"
     answer: "Direct indexing means owning the individual stocks within an index rather than the index fund itself, enabling tax-loss harvesting at the individual security level. Wealthfront and Betterment both offer this for portfolios above 100,000 dollars at 0.05 to 0.10 percent additional fee. Research suggests it adds 0.5 to 1.5 percent additional after-tax return for high-income investors. For tax-deferred accounts the feature is irrelevant."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,11 +68,21 @@ A robo-advisor replaces the financial-advisor function (asset allocation, rebala
 
 ## What A Robo-Advisor Actually Does For You
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-robo-auto.png" alt="Person setting up automatic investment transfer on smartphone" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The marketing language obscures the four concrete services that justify the management fee. First, asset allocation matched to a risk-tolerance questionnaire that adjusts stock/bond/international weights based on age, goal, and stated comfort with volatility. Second, automatic rebalancing — when stocks drift up to 75 percent of the portfolio against a 65 percent target, the robo sells stocks and buys bonds to restore the target. Third, tax-loss harvesting in taxable accounts — selling losing positions to realize losses and immediately rebuying similar (not identical, to avoid wash sales) securities. Fourth, fractional share investing that lets every dollar of every deposit get fully invested rather than sitting in cash.
 
 The first two are easy to do manually but tedious. The third is hard to do manually without violating wash-sale rules. The fourth is now available at most DIY brokerages. The robo-advisor value proposition therefore rests primarily on tax-loss harvesting effectiveness and the convenience of having all four services bundled.
 
 ## Top Pick — Best All-Round Robo For Most Investors
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-robo-risk.png" alt="Risk tolerance questionnaire on laptop screen showing conservative to aggressive options" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Betterment Digital Plan"
@@ -90,6 +100,11 @@ The goals system is the structural feature that sets Betterment apart. You can c
 
 ## Premium Pick — Direct Indexing And Tax Optimization
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-robo-glide.png" alt="Glide-path investment timeline showing decreasing risk over decades" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="Wealthfront Automated Investing"
   priceHint="0.25% management fee + 0.06-0.13% fund expenses"
@@ -105,6 +120,11 @@ Wealthfront's marketing leans hard on direct indexing, and the feature is genuin
 The Wealthfront Cash account at 5.00 percent APY is the highest yield among robo-advisor cash offerings as of our test period. The Path financial-planning calculator is the most comprehensive of any robo — it pulls in your external accounts (with read-only access via Plaid), models retirement scenarios, and visualizes goal probabilities given current savings rates. The honest negative: direct indexing only unlocks at 100k, which means the unique Wealthfront feature is unavailable to most users. Below that threshold, Wealthfront and Betterment perform roughly identically and Betterment's three-goals system is more usable.
 
 ## Free Pick — When You Want Zero Management Fee
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c1-robo-tlh.png" alt="Tax-loss harvesting concept with portfolio entries being swapped on laptop" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Fidelity Go"
