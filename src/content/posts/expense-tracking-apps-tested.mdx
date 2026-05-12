@@ -58,7 +58,7 @@ faq:
     answer: "The major apps reach 85 to 92 percent categorization accuracy after the first month of user corrections. Categories like 'Restaurants' and 'Groceries' achieve over 95 percent accuracy. Categories with ambiguous merchants (Amazon, Walmart, Target) require manual splitting because transactions span multiple categories. Plan for 15 to 30 minutes per month of manual review and corrections for accuracy to remain useful for budget decisions."
   - question: "Will these tools survive bank's open-banking transition?"
     answer: "Plaid and other aggregators have transitioned to OAuth-based connections at most major banks (Chase, Bank of America, Wells Fargo, Capital One among them) as of 2025. The transition strengthened the architecture and reduced 'lost connection' problems that plagued the screen-scraping era. Smaller banks still use older connections, and credit unions vary. Account-aggregation reliability is highest with major-bank accounts and weakest with niche credit unions."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,6 +68,11 @@ After Mint discontinued in January 2024, the personal-finance-tracker market spl
 
 ## The Three Philosophies And Who Each Serves
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-expense-receipt.png" alt="Receipt scanning app on phone capturing paper receipt for expense report" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 Net-worth aggregators serve users whose primary financial question is "how much do I have?" rather than "how much am I spending?" These users typically have multiple investment accounts, a paid-off home or mortgage, and reasonable spending discipline already. They want a clean dashboard showing total wealth trajectory, asset allocation across accounts, and net-worth changes month over month. Empower (formerly Personal Capital) dominates this category.
 
 Budgeting-focused expense trackers serve users whose primary financial question is "where is my money going?" These users want category-level visibility into spending, optionally paired with budget targets that drive behavioral change. Quicken Simplifi, Monarch Money, and YNAB serve this user, with different tradeoffs in methodology rigor and aggregation depth.
@@ -75,6 +80,11 @@ Budgeting-focused expense trackers serve users whose primary financial question 
 Spreadsheet-based trackers serve users who want full control over their financial data and analysis. These users find the assumptions baked into other apps limiting (chosen categories, hidden algorithms for trend lines, prescribed report layouts). Tiller imports transactions into Google Sheets or Excel and lets the user build any visualization they want, at the cost of significant setup time.
 
 ## Top Pick — Net Worth Aggregation
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-expense-networth.png" alt="Net worth tracker dashboard on tablet showing assets minus liabilities" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Empower Personal Wealth (formerly Personal Capital)"
@@ -92,6 +102,11 @@ The net-worth trend visualization is the second standout feature. Empower charts
 
 ## Budgeting Pick — Best Lightweight Budget Plus Aggregation
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-expense-aggregate.png" alt="Multiple bank accounts aggregated in single dashboard view on laptop" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="Quicken Simplifi"
   priceHint="$2.99/month (annual) or $5.99/month (monthly)"
@@ -107,6 +122,11 @@ Quicken Simplifi is the right choice for users wanting reliable expense tracking
 The aggregation quality is solid — we connected eight accounts across five financial institutions and all maintained reliable data flow through three months of testing. The interview-style budget setup is friendlier than YNAB's methodology-heavy approach but less rigorous about enforcing the budget. Users get a clear "you spent X versus budget Y" view without the active commitment YNAB requires. The honest limitation is that budgeting depth is lighter — users who want serious envelope-based or zero-based methodology will outgrow Simplifi within a few months and migrate to YNAB. For users seeking a step-up from a spreadsheet to a real tool without YNAB's commitment level, Simplifi is the right transition.
 
 ## Spreadsheet Pick — Maximum Control For Power Users
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-expense-goal.png" alt="Upward financial growth chart with savings goal milestone markers" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Tiller Money"
