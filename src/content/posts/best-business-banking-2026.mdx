@@ -58,7 +58,7 @@ faq:
     answer: "Technically yes, but it breaks LLC liability protection and creates tax-reporting problems. The Treasury Beneficial Ownership reporting requirements add to the legal documentation burden. For sole proprietors with no LLC, a separate personal account labeled for business use is workable but adds bookkeeping friction. For any LLC or corporation, a true business account is effectively required for compliance."
   - question: "How does FDIC insurance work for business accounts?"
     answer: "FDIC insurance covers 250,000 dollars per depositor per bank for sole proprietorships and per entity for LLCs and corporations. Multiple accounts at the same bank (checking + savings + CDs) share the 250,000 limit. Multiple accounts at different banks get separate 250,000 limits. For businesses holding more than 250,000 dollars in cash, deposit at multiple banks or use sweep accounts that distribute balance across partner banks for layered coverage."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,11 +68,21 @@ Business banking has split into two camps over the last five years: traditional 
 
 ## What Business Banking Actually Needs To Do
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-bank-cards.png" alt="Business credit card and debit card alongside laptop displaying bank balance" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 Three core operations matter for most small businesses. ACH transfers for vendor payments and customer payment collection — these run on Nacha rules with 1 to 3 day settlement standard and same-day options available at most modern banks. Wire transfers for international payments or large domestic transfers — these settle same-day for 15 to 50 dollars per outgoing wire at traditional banks, often free at modern platforms. Integration with accounting software (QuickBooks, Xero, Wave) so that transaction data flows automatically into your books without manual entry.
 
 Two additional factors matter for specific business types. Cash deposit capability via physical branches matters for retail businesses, food service, and others handling regular cash. Check writing capability still matters for businesses paying landlords, rent, or vendors that have not modernized to ACH. Modern banking platforms typically charge fees for both cash deposits and physical check writing because their cost structure assumes digital-first operations.
 
 ## Top Pick — Best Modern Business Banking For Tech And Service Businesses
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-bank-ach.png" alt="ACH bank transfer process diagram between business accounts on tablet" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Mercury Business Banking"
@@ -90,6 +100,11 @@ The integration story is the second standout. Mercury's API connects natively to
 
 ## Cash-Friendly Pick — When Branch Access Matters
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-bank-app.png" alt="Digital business banking app on smartphone showing automated bill pay" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="Chase Business Complete Checking"
   priceHint="$15/month (waivable with $2,000 balance or qualifying activity)"
@@ -105,6 +120,11 @@ Chase Business Complete Checking is the right choice for traditional small busin
 The integration with Chase's business credit card ecosystem is the second value point. Chase Ink Business Preferred, Cash, and Unlimited cards offer category bonuses (3x on internet, cable, phone for Preferred; 5x on office supplies for Cash) that can yield 500 to 1,500 dollars annually for an active small business. The relationship-based underwriting means business cards approve faster and with higher limits when you have an existing Chase business banking relationship. Wire fees (25 to 50 dollars outgoing, 15 dollars incoming) are real and add up; for businesses doing heavy wire activity, Mercury's free wires save money even after Chase's 15 dollar monthly fee.
 
 ## Revenue Pick — Best Combined Banking And Credit Line
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-bank-receipts.png" alt="Business expense receipts being organized for tax write-offs on desk" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Bluevine Business Checking + Line of Credit"
