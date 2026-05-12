@@ -58,7 +58,7 @@ faq:
     answer: "Real-time monitoring services like Credit Karma alert on new account openings typically within hours of credit bureau reporting, which itself lags actual application by 1 to 14 days. Bank-level fraud detection on existing accounts is much faster — usually within minutes of the suspicious charge. The combination of frozen credit (preventing new accounts) and bank alerts (catching existing-account fraud) covers most realistic threats."
   - question: "What is the difference between credit monitoring and identity theft protection?"
     answer: "Credit monitoring tracks changes to your credit report and score, alerting on new accounts, balance changes, and hard inquiries. Identity theft protection adds dark-web monitoring (looking for your SSN or accounts being sold), social-security-number tracking, and restoration services (humans who help fix identity theft when it occurs). Credit monitoring is sufficient for most users; identity theft protection adds value for those with elevated risk."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,11 +68,21 @@ Credit monitoring sits in an awkward category — half of what credit monitoring
 
 ## What Credit Monitoring Actually Provides
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-credit-report.png" alt="Credit report document on desk with magnifying glass examining items" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 Federal law requires the three credit bureaus (Equifax, Experian, TransUnion) to provide one free credit report per year at AnnualCreditReport.com. During COVID this was expanded to weekly access and remains weekly today. This means anyone can pull all three reports anytime without paying. Free monitoring apps like Credit Karma rebrand this access and layer on credit-score updates from one or two bureaus, push notifications on new accounts, and educational content. The value-add is convenience, not data exclusivity.
 
 Paid services add three things over free access. Real-time monitoring catches new-account openings faster than weekly manual checks. Dark-web monitoring scans hacker forums and data dumps for your SSN, email, and account credentials. Identity restoration services provide human case managers who handle the paperwork when identity theft occurs. For users facing elevated risk (recent breach victims, high-net-worth individuals, public figures), these features have real value. For users with frozen credit and reasonable digital hygiene, they often duplicate protections already in place.
 
 ## Top Pick — For Most Users, The Free Option Is Right
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-credit-alert.png" alt="Identity theft protection alert notification on smartphone screen" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Credit Karma (Free)"
@@ -90,6 +100,11 @@ The honest limitation is that Credit Karma shows VantageScore 3.0, not FICO Scor
 
 ## FICO Pick — When Lender-Accurate Scores Matter
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-credit-util.png" alt="Credit card utilization concept with credit card and small bar chart" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="Experian Premium"
   priceHint="$24.99/month or $239/year"
@@ -105,6 +120,11 @@ Experian Premium is the right service for users actively shopping for mortgages,
 The honest limitation is single-bureau coverage. Experian Premium monitors your Experian file only. TransUnion and Equifax changes go undetected unless you separately subscribe to similar services or pay for cross-bureau coverage. Identity theft commonly hits multiple bureaus simultaneously, so single-bureau monitoring catches only part of the picture. For users actively shopping for major credit, the focused Experian view is valuable; for cross-bureau ongoing monitoring, a service like Aura or IdentityForce is more comprehensive.
 
 ## Identity-Theft Pick — Best Comprehensive Protection
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c2-credit-freeze.png" alt="Person locking credit at three bureau locations security shield concept" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Aura Identity Theft Protection"
