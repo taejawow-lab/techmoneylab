@@ -58,7 +58,7 @@ faq:
     answer: "Stripe is the standard payment processor for businesses accepting payments for their own products. Stripe Connect is the platform-payments framework for marketplaces, SaaS platforms, and businesses that route payments to third-party sellers (think Etsy, Substack, Patreon). Connect adds complexity (Standard, Express, Custom account types, payouts to connected accounts) but is required for platform business models. Standard businesses do not need Connect."
   - question: "Can I avoid processing fees by accepting ACH or bank transfers instead?"
     answer: "Yes, for B2B transactions where customers can pay by ACH. Stripe and Square both support ACH at lower rates (typically 0.8 to 1.0 percent, capped at 5 to 8 dollars per transaction) versus 2.9 percent for credit cards. The friction is real — ACH requires the customer to enter bank account info or use Plaid integration, which converts at lower rates than credit card payments. For invoices above 500 dollars to B2B clients, offering ACH as the preferred option saves meaningful processing cost."
-draft: true
+draft: false
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
@@ -68,11 +68,21 @@ Payment processing is the largest hidden cost for many small businesses. A busin
 
 ## How Payment Processing Pricing Actually Works
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-payment-checkout.png" alt="E-commerce checkout page with payment options on tablet" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 The headline rate (2.9 percent plus 30 cents) is real but masks meaningful variation by card type and channel. Premium reward cards (American Express, Visa Infinite, Mastercard World Elite) carry higher interchange that processors pass through to the merchant. Some processors (Stripe, Square) charge a flat 2.9 percent regardless; others (Helcim, Stax) pass interchange through at cost plus a flat fee, which saves money for businesses with high reward-card exposure.
 
 Channel matters too. Card-present transactions (in-person, EMV chip) run 2.4 to 2.6 percent. Card-not-present (e-commerce, manual entry) runs 2.9 to 3.5 percent due to higher fraud risk. International cards add 1 to 2 percentage points. Subscription billing typically gets preferential rates 0.1 to 0.3 points lower than one-off transactions. For most small businesses the rate difference between processors is less impactful than the integration quality, fraud-protection tools, and customer service responsiveness.
 
 ## Top Pick — Best For E-Commerce And SaaS Businesses
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-payment-tap.png" alt="Mobile payment app accepting tap-to-pay transaction from customer smartphone" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="Stripe Standard Pricing"
@@ -90,6 +100,11 @@ Stripe Radar fraud detection is included at no extra cost on the standard tier. 
 
 ## In-Person Pick — Best For Retail And Restaurants
 
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-payment-fees.png" alt="Payment processing fee comparison chart showing rates for different providers" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
+
 <ProductBox
   name="Square POS Pro"
   priceHint="2.6% + $0.10 in-person / 2.9% + $0.30 online"
@@ -105,6 +120,11 @@ Square is the right choice for restaurants, retail stores, coffee shops, and any
 The same-day deposit feature is the structural cash-flow advantage. Card transactions processed before 5 PM ET appear in your Square Banking account within hours, available for spending or transfer to your business bank account immediately. Stripe's standard deposit is 2 days. For high-volume retail businesses managing inventory turnover, the faster cash availability matters. The honest downside is e-commerce — Square Online works adequately but lacks Stripe's depth on checkout customization, subscription handling, and developer features. For businesses split between in-person and online, the choice is between using both Stripe and Square (operational overhead) or accepting one tool's weakness in the other channel.
 
 ## Universal Pick — PayPal Business For Established Customer Trust
+
+
+<figure style="margin: 1.5rem 0;">
+<img src="/images/illustrations/tml-c3-payment-secure.png" alt="Secure payment encryption shield concept over credit card transaction" style="width: 100%; border-radius: 8px; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" decoding="async" />
+</figure>
 
 <ProductBox
   name="PayPal Business"
