@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-05-29T10:14:46Z",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "workflow": "ComfyUI SDXL txt2img CheckpointLoaderSimple->KSampler->VAEDecode->SaveImage",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "steps": 24,
+  "cfg": 5.6,
+  "sampler": "dpmpp_2m",
+  "scheduler": "karras",
+  "negative": "text, letters, words, numbers, logo, watermark, signature, brand marks, UI screenshot, readable screen text, calendar grid, distorted objects, extra limbs, bad hands, bad anatomy, fake labels, low quality, blurry, cartoon, placeholder, generic stock image",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-roth-ira-limits-2026-hero.png",
+      "filename": "tml-roth-ira-limits-2026-hero.png",
+      "alt": "Roth IRA contribution planning desk",
+      "prompt": "premium realistic personal finance editorial photo, clean desk with sealed plain folders, two unlabeled glass savings jars, laptop with dark blank screen, coins, warm daylight, absolutely no papers with writing, no text, no logos",
+      "seed": 202605291401,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "2b02c840-7596-4690-a6c7-b68f67e1d483",
+      "comfy_output": {
+        "filename": "hermes_tml_roth_20260529_00006_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1558930
+    },
+    {
+      "file": "public/images/illustrations/tml-roth-ira-limits-2026-paycheck.png",
+      "filename": "tml-roth-ira-limits-2026-paycheck.png",
+      "alt": "Paycheck and IRA savings workflow",
+      "prompt": "realistic payroll planning still life with blank colored envelopes, coins, plain notebook closed, phone with dark blank screen, coffee, neutral professional lighting, no documents, no handwriting, no text, no logos",
+      "seed": 202605291402,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "023534be-71b6-4f02-a0fd-1481a968eb03",
+      "comfy_output": {
+        "filename": "hermes_tml_roth_20260529_00007_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1814688
+    },
+    {
+      "file": "public/images/illustrations/tml-roth-ira-limits-2026-phaseout.png",
+      "filename": "tml-roth-ira-limits-2026-phaseout.png",
+      "alt": "Income phaseout decision scene",
+      "prompt": "realistic financial planning desk with three blank colored cards arranged as decision zones, laptop screen completely dark blank, abstract wooden blocks, pen, no paper forms, no text, no logos",
+      "seed": 202605291403,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "76b73f92-abed-4466-b3aa-6287f4552e16",
+      "comfy_output": {
+        "filename": "hermes_tml_roth_20260529_00008_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1344141
+    },
+    {
+      "file": "public/images/illustrations/tml-roth-ira-limits-2026-backdoor.png",
+      "filename": "tml-roth-ira-limits-2026-backdoor.png",
+      "alt": "Backdoor Roth documentation folder",
+      "prompt": "realistic retirement account organization scene, closed plain folders, blank sticky tabs with no writing, secure file box, coins and pen, clean editorial composition, no forms, no labels, no text",
+      "seed": 202605291404,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "c619d22b-309e-4143-bcaa-596b114e8f1f",
+      "comfy_output": {
+        "filename": "hermes_tml_roth_20260529_00009_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1657774
+    },
+    {
+      "file": "public/images/illustrations/tml-roth-ira-limits-2026-taxable.png",
+      "filename": "tml-roth-ira-limits-2026-taxable.png",
+      "alt": "Taxable brokerage backup bucket",
+      "prompt": "realistic household investing desk with two plain unlabeled glass jars, closed blank folder, glasses, coins, laptop screen dark and blank in background, no papers with writing, no labels, no readable text",
+      "seed": 202605291405,
+      "endpoint": "http://192.168.50.29:8188",
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "090c8441-4d1b-46c6-8355-1734fa27ee64",
+      "comfy_output": {
+        "filename": "hermes_tml_roth_20260529_00010_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1274829
+    }
+  ],
+  "contact_sheet": "reports/tml-roth-ira-limits-2026-contact-sheet.jpg"
+}

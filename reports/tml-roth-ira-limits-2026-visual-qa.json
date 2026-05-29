@@ -1,0 +1,15 @@
+{
+  "article": "src/content/posts/roth-ira-income-limits-2026-contribution-workflow.mdx",
+  "checked_at": "2026-05-29",
+  "contact_sheet": "reports/tml-roth-ira-limits-2026-contact-sheet.jpg",
+  "image_count": 5,
+  "visual_qa": "PASS",
+  "evidence": "Final contact sheet inspected: five 1536x864 raster PNGs, finance/retirement-planning relevant, realistic editorial style, 16:9 composition, no readable text, logos, watermarks, SVG placeholders, or obvious artifacts. First generated set was rejected for document text; final set regenerated with blank folders/jars/cards and accepted.",
+  "files": [
+    "public/images/illustrations/tml-roth-ira-limits-2026-hero.png",
+    "public/images/illustrations/tml-roth-ira-limits-2026-paycheck.png",
+    "public/images/illustrations/tml-roth-ira-limits-2026-phaseout.png",
+    "public/images/illustrations/tml-roth-ira-limits-2026-backdoor.png",
+    "public/images/illustrations/tml-roth-ira-limits-2026-taxable.png"
+  ]
+}
