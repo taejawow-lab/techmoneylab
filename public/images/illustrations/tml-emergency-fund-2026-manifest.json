@@ -1,0 +1,165 @@
+{
+  "site": "techmoneylab",
+  "slug": "emergency-fund-high-yield-cash-checklist-2026",
+  "date": "2026-06-02",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-emergency-fund-2026-hero.png",
+      "filename": "tml-emergency-fund-2026-hero.png",
+      "prompt": "realistic personal finance editorial photo of organized emergency cash planning desk, calculator, blank bank cards face down, closed laptop, no text no logos",
+      "seed": 202606020601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "21e99696-42a0-4ab9-b7ca-2edfabe29ab7",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1874311,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-emergency-fund-2026-01.png",
+      "filename": "tml-emergency-fund-2026-01.png",
+      "prompt": "realistic household emergency fund flat lay with blank envelopes, calculator, keys, no readable text",
+      "seed": 202606020602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c9c9a2e6-c01c-4dd8-ae5c-4f858e3c6d9c",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1899372,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-emergency-fund-2026-02.png",
+      "filename": "tml-emergency-fund-2026-02.png",
+      "prompt": "realistic high yield savings comparison desk with blank papers and phone dark screen no UI",
+      "seed": 202606020603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f95abee0-9430-403d-82f1-bd4e79501d7c",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1401048,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-emergency-fund-2026-03.png",
+      "filename": "tml-emergency-fund-2026-03.png",
+      "prompt": "realistic FDIC cash coverage planning scene, small home safe open with plain blank envelopes and calculator on desk, no cards, no text, no logos",
+      "seed": 202606021001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f794f2b3-a5c7-472d-83b1-6d6c5a34e4d6",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_regen_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_note": "regenerated after visual QA rejection"
+    },
+    {
+      "file": "public/images/illustrations/tml-emergency-fund-2026-04.png",
+      "filename": "tml-emergency-fund-2026-04.png",
+      "prompt": "realistic emergency expense scenario with car key, home key, medical pouch closed, no labels",
+      "seed": 202606020605,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7c555aa2-c913-44a4-901f-632a3432364f",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1974296,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-emergency-fund-2026-05.png",
+      "filename": "tml-emergency-fund-2026-05.png",
+      "prompt": "realistic monthly cash review at kitchen table with blank notebook and calculator no writing",
+      "seed": 202606020606,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cd4ceca9-5ae4-4e2e-92f1-c9609bfa2e7a",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260602_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1808578,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260602-techmoneylab-contact-sheet.jpg",
+  "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260602-techmoneylab-contact-sheet-final.jpg",
+  "qa_regenerated": [
+    "03"
+  ]
+}
