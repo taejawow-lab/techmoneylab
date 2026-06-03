@@ -1,0 +1,164 @@
+{
+  "site": "techmoneylab",
+  "slug": "family-529-qualified-expense-checklist-2026",
+  "date": "2026-06-03",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-529-qualified-expense-2026-hero.png",
+      "filename": "tml-529-qualified-expense-2026-hero.png",
+      "prompt": "realistic family college savings planning desk with calculator, blank laptop, campus brochure turned over, no text no logos",
+      "seed": 202606030601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "624c4571-bec9-4a42-bc61-fc496941adfb",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1418614,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-529-qualified-expense-2026-01.png",
+      "filename": "tml-529-qualified-expense-2026-01.png",
+      "prompt": "realistic college savings planning flat lay with calculator and blank papers no readable text",
+      "seed": 202606030602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b3fbb11a-f576-4003-8b7a-faa3eb1b8d53",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1895810,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-529-qualified-expense-2026-02.png",
+      "filename": "tml-529-qualified-expense-2026-02.png",
+      "prompt": "realistic education technology expense scene with closed laptop lid, plain notebook, calculator turned off, blank papers face down, no screens, no words, no numbers",
+      "seed": 202606039101,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "401e22bf-86a9-4ee5-b41f-cf41a0eae88c",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_final2_techmoneylab_tml-529-qualified-expense-2026-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1743153,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true,
+      "qa_replacement_round": 2
+    },
+    {
+      "file": "public/images/illustrations/tml-529-qualified-expense-2026-03.png",
+      "filename": "tml-529-qualified-expense-2026-03.png",
+      "prompt": "realistic dorm housing budget scene with keys, plain notebook, closed laptop no labels",
+      "seed": 202606030604,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6cf1d2b7-a664-42f1-aa96-434498a1cfb3",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1515375,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-529-qualified-expense-2026-04.png",
+      "filename": "tml-529-qualified-expense-2026-04.png",
+      "prompt": "realistic parent and student reviewing education budget at kitchen table blank documents no text",
+      "seed": 202606030605,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f848c9ca-6aa8-47df-af41-ca876765750f",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1785202,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-529-qualified-expense-2026-05.png",
+      "filename": "tml-529-qualified-expense-2026-05.png",
+      "prompt": "realistic education expense recordkeeping desk with closed plain folders, calculator turned away, blank index cards, no forms, no readable text, no numbers, no logos",
+      "seed": 202606039001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5e9cee67-672e-4a2f-89ca-5295c036cec7",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260603_finalqa_techmoneylab_tml-529-qualified-expense-2026-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1598584,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true
+    }
+  ],
+  "contact_sheet_final2": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260603-techmoneylab-contact-sheet-final2.jpg"
+}
