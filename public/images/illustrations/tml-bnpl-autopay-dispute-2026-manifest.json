@@ -1,0 +1,179 @@
+{
+  "site": "techmoneylab",
+  "slug": "bnpl-autopay-refund-dispute-checklist-2026",
+  "date": "2026-06-05",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-bnpl-autopay-dispute-2026-hero.png",
+      "filename": "tml-bnpl-autopay-dispute-2026-hero.png",
+      "prompt": "realistic household finance desk with blank phone screen, payment cards turned face down, receipts without text, calendar blocks blurred, no logos",
+      "positive_prompt": "realistic household finance desk with blank phone screen, payment cards turned face down, receipts without text, calendar blocks blurred, no logos, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, unsafe child scene",
+      "seed": 202606050601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f6fcb000-87e9-442e-8e03-ab9d5418d5ef",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1592708,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-bnpl-autopay-dispute-2026-01.png",
+      "filename": "tml-bnpl-autopay-dispute-2026-01.png",
+      "prompt": "realistic buy now pay later planning desk with blank phone and simple envelope no text",
+      "positive_prompt": "realistic buy now pay later planning desk with blank phone and simple envelope no text, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, unsafe child scene",
+      "seed": 202606050602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "2ae8561e-fb23-4d8e-8ec8-a497cf2ef0d5",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1380641,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-bnpl-autopay-dispute-2026-02.png",
+      "filename": "tml-bnpl-autopay-dispute-2026-02.png",
+      "prompt": "realistic household bill planning desk with abstract colored sticky notes on cork board, no calendar grid, no numbers, no writing, no screens",
+      "positive_prompt": "realistic household bill planning desk with abstract colored sticky notes on cork board, no calendar grid, no numbers, no writing, no screens, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, absolutely no readable text, no letters, no numbers, no logos, no UI, blank screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, label, brand, UI, screen content, calendar, document text, handwriting, QR code, face closeup, child face, monster, fantasy, horror, distorted objects, bad anatomy, extra fingers, unsafe scene, low quality, blurry, fake interface",
+      "seed": 202606051001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5604efcf-9374-4dc0-bd21-5ea0af2edb0a",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2161940,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-bnpl-autopay-dispute-2026-03.png",
+      "filename": "tml-bnpl-autopay-dispute-2026-03.png",
+      "prompt": "minimal realistic plain brown cardboard box tied with plain string on clean table, no label, no barcode, no paper, no writing, no people",
+      "positive_prompt": "minimal realistic plain brown cardboard box tied with plain string on clean table, no label, no barcode, no paper, no writing, no people, professional realistic editorial photography, high detail, 16:9, absolutely blank objects, no text no letters no numbers no logos no people",
+      "negative_prompt": "text, words, letters, numbers, barcodes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, person, child, people, readable, low quality, distorted",
+      "seed": 202606052001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8d896445-7305-4e21-930a-1ece72287c3c",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa2_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1135735,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-bnpl-autopay-dispute-2026-04.png",
+      "filename": "tml-bnpl-autopay-dispute-2026-04.png",
+      "prompt": "realistic finance desk with calculator and completely blank closed folders, no loose papers, no documents, no writing, no screens, no people",
+      "positive_prompt": "realistic finance desk with calculator and completely blank closed folders, no loose papers, no documents, no writing, no screens, no people, professional realistic editorial photography, high detail, 16:9, absolutely blank objects, no text no letters no numbers no logos no people",
+      "negative_prompt": "text, words, letters, numbers, barcodes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, person, child, people, readable, low quality, distorted",
+      "seed": 202606052002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "abf3b1b8-c2c5-4c0f-9e5a-2dd1e65a0978",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_qa2_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1539620,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-bnpl-autopay-dispute-2026-05.png",
+      "filename": "tml-bnpl-autopay-dispute-2026-05.png",
+      "prompt": "realistic family cash flow review desk with piggy bank and blank laptop screen no UI",
+      "positive_prompt": "realistic family cash flow review desk with piggy bank and blank laptop screen no UI, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, unsafe child scene",
+      "seed": 202606050606,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4dae8e2b-5083-40f9-8c79-0342ded12d4f",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260605_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1322179,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260605-techmoneylab-contact-sheet-final2.jpg",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260605-techmoneylab-contact-sheet-final2.jpg",
+  "updated_after_visual_qa": "2026-06-05T10:19:15Z",
+  "updated_after_visual_qa2": "2026-06-05T10:22:37Z"
+}
