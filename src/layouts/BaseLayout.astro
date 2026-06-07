@@ -2,147 +2,46 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-
-export interface Props {
-  title: string;
-  description: string;
-  image?: string;
-  type?: 'website' | 'article';
-  publishedTime?: string;
-  modifiedTime?: string;
-  canonicalURL?: string;
-  schema?: object;
-  noindex?: boolean;
-}
-
-const {
-  title,
-  description,
-  image = '/images/illustrations/hero.png',
-  type = 'website',
-  publishedTime,
-  modifiedTime,
-  canonicalURL = Astro.url.href,
-  schema,
-  noindex = false,
-} = Astro.props;
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
-const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://yookahplus.org';
+export interface Props { title:string; description:string; image?:string; type?:'website'|'article'; publishedTime?:string; modifiedTime?:string; canonicalURL?:string; schema?:object; noindex?:boolean; }
+const { title, description, image='/images/illustrations/hero.png', type='website', publishedTime, modifiedTime, canonicalURL=Astro.url.href, schema, noindex=false } = Astro.props;
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'techmoneylab';
+const siteUrl = import.meta.env.PUBLIC_SITE_URL || 'https://techmoneylab.net';
 const fullImageUrl = new URL(image, siteUrl).href;
-
-// Default schema — 사이트 자체 NewsMediaOrganization
-const defaultSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'NewsMediaOrganization',
-  name: siteName,
-  url: siteUrl,
-  description,
-};
+const defaultSchema = { '@context':'https://schema.org', '@type':'NewsMediaOrganization', name: siteName, url: siteUrl, description };
 const finalSchema = schema || defaultSchema;
 ---
-
 <!doctype html>
-<html lang={import.meta.env.PUBLIC_SITE_LANG || 'en'}>
+<html lang={import.meta.env.PUBLIC_SITE_LANG || 'en'} data-theme="light" data-accent="burgundy" data-head="sans" data-hero="center">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="generator" content={Astro.generator} />
+    <script is:inline>try{var t=localStorage.getItem('tml-theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="canonical" href={canonicalURL} />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <link rel="alternate" type="application/rss+xml" title={siteName} href="/rss.xml" />
-
     <title>{title} | {siteName}</title>
     <meta name="title" content={title} />
     <meta name="description" content={description} />
     <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large'} />
-
-    <!-- Open Graph -->
-    <meta property="og:type" content={type} />
-    <meta property="og:url" content={canonicalURL} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={fullImageUrl} />
-    <meta property="og:site_name" content={siteName} />
-
+    <meta name="theme-color" content="#74282f" />
+    <meta property="og:type" content={type} /><meta property="og:url" content={canonicalURL} /><meta property="og:title" content={title} /><meta property="og:description" content={description} /><meta property="og:image" content={fullImageUrl} /><meta property="og:site_name" content={siteName} />
     {publishedTime && <meta property="article:published_time" content={publishedTime} />}
     {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content={canonicalURL} />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={fullImageUrl} />
-
-
-    <!-- Google Search Console verification (set PUBLIC_GSC_VERIFICATION env var) -->
-    {import.meta.env.PUBLIC_GSC_VERIFICATION && (
-      <meta name="google-site-verification" content={import.meta.env.PUBLIC_GSC_VERIFICATION} />
-    )}
-
-    <!-- Bing Webmaster verification (set PUBLIC_BING_VERIFICATION env var) -->
-    {import.meta.env.PUBLIC_BING_VERIFICATION && (
-      <meta name="msvalidate.01" content={import.meta.env.PUBLIC_BING_VERIFICATION} />
-    )}
-
-    <!-- Naver Search Advisor verification (set PUBLIC_NAVER_VERIFICATION env var) -->
-    {import.meta.env.PUBLIC_NAVER_VERIFICATION && (
-      <meta name="naver-site-verification" content={import.meta.env.PUBLIC_NAVER_VERIFICATION} />
-    )}
-    <!-- Theme color (사이트 primary 자동) -->
-    <meta name="theme-color" content="var(--color-primary)" />
-
-    <!-- Preconnect to fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Schema.org JSON-LD -->
+    <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content={title} /><meta name="twitter:description" content={description} /><meta name="twitter:image" content={fullImageUrl} />
+    {import.meta.env.PUBLIC_GSC_VERIFICATION && <meta name="google-site-verification" content={import.meta.env.PUBLIC_GSC_VERIFICATION} />}
+    {import.meta.env.PUBLIC_BING_VERIFICATION && <meta name="msvalidate.01" content={import.meta.env.PUBLIC_BING_VERIFICATION} />}
+    {import.meta.env.PUBLIC_NAVER_VERIFICATION && <meta name="naver-site-verification" content={import.meta.env.PUBLIC_NAVER_VERIFICATION} />}
     <script type="application/ld+json" set:html={JSON.stringify(finalSchema)} />
-
-    <!-- AdSense (환경변수 있으면 자동 삽입) -->
-    {import.meta.env.PUBLIC_ADSENSE_CLIENT && (
-      <script
-        async
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${import.meta.env.PUBLIC_ADSENSE_CLIENT}`}
-        crossorigin="anonymous"
-      />
-    )}
-    {import.meta.env.PUBLIC_CF_BEACON_TOKEN && (
-      <script
-        defer
-        src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon={`{"token":"${import.meta.env.PUBLIC_CF_BEACON_TOKEN}"}`}
-      />
-    )}
-
-    {import.meta.env.PUBLIC_GA4_ID && (
-      <>
-        <script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA4_ID}`} />
-        <script set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${import.meta.env.PUBLIC_GA4_ID}');`} />
-      </>
-    )}
-    <!-- taekm33 first-party analytics (privacy-preserving JSONL dashboard) -->
+    {import.meta.env.PUBLIC_ADSENSE_CLIENT && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${import.meta.env.PUBLIC_ADSENSE_CLIENT}`} crossorigin="anonymous" />}
+    {import.meta.env.PUBLIC_GA4_ID && <><script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA4_ID}`} /><script set:html={`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${import.meta.env.PUBLIC_GA4_ID}');`} /></>}
     <script defer src="https://taekm33.org/assets/taekm33-analytics-v4.js"></script>
-
-
-    <!-- Theme toggle script (FOUC 방지) -->
-    <script is:inline>
-      (function () {
-        const theme = localStorage.getItem('theme') ||
-                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-theme', theme);
-        document.documentElement.classList.toggle('dark', theme === 'dark');
-      })();
-    </script>
   </head>
-  <body class="min-h-screen flex flex-col">
+  <body>
     <Header />
-    <main class="flex-1">
-      <slot />
-    </main>
+    <main><slot /></main>
     <Footer />
+    <script src="/tml-app.js" defer></script>
   </body>
 </html>

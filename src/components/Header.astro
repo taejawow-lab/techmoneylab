@@ -1,73 +1,45 @@
 ---
-import ThemeToggle from './ThemeToggle.astro';
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
-const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
-
+import BrandMark from './BrandMark.astro';
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'techmoneylab';
 const navItems = [
   { label: 'Posts', href: '/posts/' },
   { label: 'Categories', href: '/categories/' },
-  { label: 'Search', href: '/search/' },
-  { label: 'About', href: '/about' },
-  { label: 'Editorial', href: '/editorial-process' },
+  { label: 'Tools', href: '/#calc' },
+  { label: 'Editorial', href: '/editorial-process/' },
+  { label: 'About', href: '/about/' },
 ];
 ---
-
-<!-- modern editorial header: token-driven, mobile discoverable, no client JS -->
-<header class="sticky top-0 z-50 backdrop-blur-xl bg-background/90 border-b border-border/70 shadow-[0_1px_0_rgba(15,23,42,0.03)]">
-  {edition && (
-    <div class="border-b border-border/50 bg-muted/25">
-      <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-8 flex items-center justify-between gap-3 text-[10px] uppercase tracking-[0.22em] text-muted-foreground font-mono">
-        <span class="truncate">{edition}</span>
-        <span class="hidden sm:inline">A data-grounded publication</span>
-      </div>
-    </div>
-  )}
-
-  <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-[68px] md:min-h-20 flex items-center justify-between gap-4">
-    <a href="/" class="group flex min-w-0 items-center gap-3 rounded-md py-2 focus-visible:outline-ring" aria-label={`${siteName} home`}>
-      <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm ring-1 ring-border/30" aria-hidden="true">
-        <span class="text-sm font-bold" style="font-family: var(--font-display);">{siteName.slice(0, 1).toUpperCase()}</span>
-      </span>
-      <span
-        class="truncate text-2xl md:text-3xl font-bold tracking-[-0.025em] leading-none transition-colors group-hover:text-primary"
-        style="font-family: var(--font-display);"
-      >
-        {siteName}
-      </span>
+<div class="topbar">
+  <div class="wrap">
+    <div class="tb-left"><span>{siteName} · Quarter 01</span><span class="dot"></span><span data-today></span></div>
+    <div class="tb-right"><span class="live">● Data-verified</span><span>Primary sources cited</span><span>Disclosures transparent</span></div>
+  </div>
+</div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label={`${siteName} home`}>
+      <BrandMark />
+      <span><span class="bname">tech<b>moneylab</b></span><span class="btag">A data-grounded publication</span></span>
     </a>
-
-    <div class="flex items-center gap-3 md:gap-6">
-      <nav aria-label="Primary navigation" class="hidden md:block">
-        <ul class="flex items-center gap-1 text-xs lg:text-sm uppercase tracking-[0.12em]">
-          {navItems.map((item) => (
-            <li>
-              <a
-                href={item.href}
-                class="rounded-full px-3 py-2 text-foreground/72 hover:bg-muted hover:text-foreground focus-visible:outline-ring transition-colors"
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <a href="/search/" class="hidden sm:inline-flex md:hidden min-h-10 items-center rounded-full border border-border bg-card px-4 text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 shadow-sm">
-        Search
-      </a>
-      <ThemeToggle />
+    <nav class="nav" id="nav" aria-label="Primary navigation">
+      {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" aria-label="Saved posts" title="Saved" href="/posts/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 4h12a1 1 0 0 1 1 1v15l-7-4-7 4V5a1 1 0 0 1 1-1Z"/></svg></a>
+      <a class="icon-btn" aria-label="Search" title="Search" href="/search/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a>
+      <button class="icon-btn" data-theme-toggle data-theme-icon aria-label="Toggle theme" title="Dark / light mode">
+        <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="display:none"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></svg>
+      </button>
+      <a class="btn-sub" href="/#news">Subscribe</a>
+      <button class="icon-btn menu-toggle" data-menu-toggle aria-label="Menu" aria-expanded="false">
+        <svg class="i-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" style="display:none"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
     </div>
   </div>
-
-  <nav aria-label="Mobile primary navigation" class="md:hidden border-t border-border/55 bg-background/95">
-    <ul class="container mx-auto flex gap-2 overflow-x-auto px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] [-webkit-overflow-scrolling:touch]">
-      {navItems.map((item) => (
-        <li class="shrink-0">
-          <a href={item.href} class="inline-flex min-h-10 items-center rounded-full border border-border/70 bg-card px-4 text-foreground/75 shadow-sm transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-ring">
-            {item.label}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </nav>
+  <div class="mobile-nav" id="mobile-nav">
+    {navItems.map((item) => <a href={item.href}>{item.label}</a>)}
+    <a class="btn-sub" style="margin-top:8px;width:100%;height:48px" href="/#news">Subscribe to the newsletter</a>
+  </div>
 </header>
