@@ -1,0 +1,105 @@
+{
+  "site": "techmoneylab",
+  "slug": "ai-pc-upgrade-roi-npu-laptop-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "images": [
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-hero.png",
+      "seed": 90608000,
+      "prompt": "editorial photo of person comparing a closed laptop, calculator with blank display, and cloud shaped desk object, no readable text, no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-hero_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-01.png",
+      "seed": 90608001,
+      "prompt": "modern laptop upgrade planning desk with blank paper cost columns implied by objects only, no writing",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-01_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-02.png",
+      "seed": 90608002,
+      "prompt": "close view of laptop side ports and clean desk, abstract AI chip prop, blank screen",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-02_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-03.png",
+      "seed": 90608003,
+      "prompt": "home office worker testing local AI on laptop with dark blank screen and privacy safe documents",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-03_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-04.png",
+      "seed": 90608004,
+      "prompt": "cloud subscription decision scene with laptop closed, credit card face down no numbers, notebook blank",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-04_00001_.png"
+    },
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-05.png",
+      "seed": 90608005,
+      "prompt": "small business owner reviewing upgrade budget on blank spreadsheet-like paper with no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-05_00001_.png"
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/tml-ai-pc-roi-20260608-contact-sheet.jpg",
+  "visual_qa": "pass: final contact sheet inspected; rejected screen/text-heavy artifacts regenerated where needed; no readable text/logos/unsafe scenes accepted",
+  "qa_replacements": [
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-03.png",
+      "seed": 90608103,
+      "prompt": "closed laptop beside privacy folder and abstract AI chip object, home office local AI privacy theme, no screen visible, no text, no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-03_00002_.png",
+      "reason": "visual QA rejected previous screen/text-like artifact"
+    },
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-05.png",
+      "seed": 90608105,
+      "prompt": "small business upgrade budget planning with blank index cards and calculator turned off, no worksheets, no numbers, no writing, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-05_00002_.png",
+      "reason": "visual QA rejected previous screen/text-like artifact"
+    },
+    {
+      "file": "public/images/illustrations/tml-ai-pc-roi-20260608-03.png",
+      "seed": 90608203,
+      "prompt": "privacy-first local AI concept using sealed kraft folder, small abstract microchip sculpture, plain desk, soft light, no electronic screens, no devices, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "remote_filename": "tml-ai-pc-roi-20260608-03_00003_.png",
+      "reason": "second visual QA replacement to remove screen/UI"
+    }
+  ]
+}
