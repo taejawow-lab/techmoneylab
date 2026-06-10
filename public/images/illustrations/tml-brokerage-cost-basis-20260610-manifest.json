@@ -1,0 +1,136 @@
+{
+  "site": "techmoneylab",
+  "slug": "brokerage-transfer-cost-basis-checklist-2026",
+  "date": "2026-06-10",
+  "endpoint": "gti13 direct ComfyUI (redacted in final report)",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-brokerage-cost-basis-20260610-hero.png",
+      "filename": "tml-brokerage-cost-basis-20260610-hero.png",
+      "prompt": "realistic personal finance desk with blank laptop, sealed brokerage folder, calculator, no text no logos",
+      "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermarks, UI screenshots, forms, calendars, handwriting, QR code, barcodes, fake labels, fake medical chart, official seals, distorted hands, bad anatomy, child face closeup, unsafe scene, low quality, blurry, placeholder, generic stock art",
+      "seed": 2026061001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0627a408-1c99-4394-ad79-b8e82a544f25",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1534593,
+      "source_host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "file": "public/images/illustrations/tml-brokerage-cost-basis-20260610-01.png",
+      "filename": "tml-brokerage-cost-basis-20260610-01.png",
+      "prompt": "realistic investor organizing tax lot records with blank papers and calculator, no readable writing",
+      "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermarks, UI screenshots, forms, calendars, handwriting, QR code, barcodes, fake labels, fake medical chart, official seals, distorted hands, bad anatomy, child face closeup, unsafe scene, low quality, blurry, placeholder, generic stock art",
+      "seed": 2026061002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "35caaf3c-985c-4d0e-91b0-bbd4d4f634d6",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1941134,
+      "source_host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "file": "public/images/illustrations/tml-brokerage-cost-basis-20260610-02.png",
+      "filename": "tml-brokerage-cost-basis-20260610-02.png",
+      "prompt": "realistic account transfer checklist scene with closed laptop, folder tabs without labels, no text",
+      "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermarks, UI screenshots, forms, calendars, handwriting, QR code, barcodes, fake labels, fake medical chart, official seals, distorted hands, bad anatomy, child face closeup, unsafe scene, low quality, blurry, placeholder, generic stock art",
+      "seed": 2026061003,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "01b58198-d79d-4cbc-8e85-eedb45a063e1",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1652308,
+      "source_host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "file": "public/images/illustrations/tml-brokerage-cost-basis-20260610-03.png",
+      "filename": "tml-brokerage-cost-basis-20260610-03.png",
+      "prompt": "realistic dividend reinvestment review desk with plain envelopes and blank phone screen, no UI",
+      "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermarks, UI screenshots, forms, calendars, handwriting, QR code, barcodes, fake labels, fake medical chart, official seals, distorted hands, bad anatomy, child face closeup, unsafe scene, low quality, blurry, placeholder, generic stock art",
+      "seed": 2026061004,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f802fd4c-1dba-4301-a8bd-2d35c94b24b9",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1680166,
+      "source_host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "file": "public/images/illustrations/tml-brokerage-cost-basis-20260610-04.png",
+      "filename": "tml-brokerage-cost-basis-20260610-04.png",
+      "prompt": "realistic year end tax evidence folder with calculator, blank documents, no forms or numbers",
+      "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermarks, UI screenshots, forms, calendars, handwriting, QR code, barcodes, fake labels, fake medical chart, official seals, distorted hands, bad anatomy, child face closeup, unsafe scene, low quality, blurry, placeholder, generic stock art",
+      "seed": 2026061005,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "2d3ef4ee-bed6-4551-a69c-3f649b04d0cf",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1852865,
+      "source_host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "file": "public/images/illustrations/tml-brokerage-cost-basis-20260610-05.png",
+      "filename": "tml-brokerage-cost-basis-20260610-05.png",
+      "prompt": "realistic conservative investing operations workspace with padlock and plain documents, no text",
+      "negative_prompt": "readable text, words, letters, numbers, logos, brand marks, watermarks, UI screenshots, forms, calendars, handwriting, QR code, barcodes, fake labels, fake medical chart, official seals, distorted hands, bad anatomy, child face closeup, unsafe scene, low quality, blurry, placeholder, generic stock art",
+      "seed": 2026061006,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "93e7bc9e-78ca-424b-8c94-41d1621d0c19",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1389829,
+      "source_host": "gti13-direct-comfyui-redacted"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260610-techmoneylab-contact-sheet.jpg",
+  "visual_qa": "pending human/vision inspection before commit"
+}
