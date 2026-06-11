@@ -1,0 +1,178 @@
+{
+  "site": "techmoneylab",
+  "slug": "ira-rollover-60-day-rule-checklist-2026",
+  "date": "2026-06-11",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-ira-rollover-60-day-2026-hero.png",
+      "filename": "tml-ira-rollover-60-day-2026-hero.png",
+      "prompt": "realistic retirement paperwork planning desk with blank folders, sealed envelopes, calculator turned away, no readable text no numbers no logos",
+      "positive_prompt": "realistic retirement paperwork planning desk with blank folders, sealed envelopes, calculator turned away, no readable text no numbers no logos, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank or turned-away screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, face closeup, child face closeup, distorted forms, fake receipts, fake official papers, financial numbers, medical labels, map labels, passport text, unsafe scene, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606111601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.3,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "bf387f4b-245a-4bf7-8411-8957c3e3fbf2",
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1611461,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-ira-rollover-60-day-2026-01.png",
+      "filename": "tml-ira-rollover-60-day-2026-01.png",
+      "prompt": "realistic retirement account transfer planning desk with blank folders and dark laptop screen no text no numbers",
+      "positive_prompt": "realistic retirement account transfer planning desk with blank folders and dark laptop screen no text no numbers, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank or turned-away screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, face closeup, child face closeup, distorted forms, fake receipts, fake official papers, financial numbers, medical labels, map labels, passport text, unsafe scene, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606111602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.3,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "7a111737-c31e-4b05-a4db-0de027902a2a",
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1260411,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-ira-rollover-60-day-2026-02.png",
+      "filename": "tml-ira-rollover-60-day-2026-02.png",
+      "prompt": "realistic direct transfer decision scene with two plain file trays and sealed envelope no writing no logos",
+      "positive_prompt": "realistic direct transfer decision scene with two plain file trays and sealed envelope no writing no logos, professional realistic editorial photography, natural light, 16:9, high detail, topic accurate, no embedded text anywhere, no logos, no brands, no readable papers, blank or turned-away screens only",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, face closeup, child face closeup, distorted forms, fake receipts, fake official papers, financial numbers, medical labels, map labels, passport text, unsafe scene, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606111603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.3,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "a33cf74a-e441-4789-b0f2-64e9f69f5a1e",
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1525863,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-ira-rollover-60-day-2026-03.png",
+      "filename": "tml-ira-rollover-60-day-2026-03.png",
+      "prompt": "still life retirement tax evidence concept with closed blank folders, blank paper sheets turned face down, calculator off, no forms, no text, no numbers, no people",
+      "positive_prompt": "still life retirement tax evidence concept with closed blank folders, blank paper sheets turned face down, calculator off, no forms, no text, no numbers, no people, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ffcc3fcf-b910-44ec-94f7-131fe7ce8589",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1463228,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-ira-rollover-60-day-2026-04.png",
+      "filename": "tml-ira-rollover-60-day-2026-04.png",
+      "prompt": "still life deadline planning concept with plain colored wooden blocks only, no letters, no numbers, no calendar, no people, cork board background",
+      "positive_prompt": "still life deadline planning concept with plain colored wooden blocks only, no letters, no numbers, no calendar, no people, cork board background, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "14812f5e-782d-4e8e-bdb8-ed2d80b7387b",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1451936,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-ira-rollover-60-day-2026-05.png",
+      "filename": "tml-ira-rollover-60-day-2026-05.png",
+      "prompt": "still life retirement records archive with plain folders inside wooden box, completely blank tabs, no labels, no text, no people",
+      "positive_prompt": "still life retirement records archive with plain folders inside wooden box, completely blank tabs, no labels, no text, no people, professional realistic editorial still life photography, natural light, 16:9, high detail, topic accurate, absolutely no embedded text, no people, no faces, no logos, no readable papers, blank props only",
+      "negative_prompt": "people, person, face, child, portrait, readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, form, tax form, receipt, calendar grid, document text, handwriting, QR code, labels, official papers, medical label, financial numbers, unsafe scene, bad anatomy, low quality, blurry, generic stock art",
+      "seed": 202606112003,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a9656a0c-9374-4de7-b6ef-2effd200e26c",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260611_finalqa_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1665238,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.6,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260611-techmoneylab-contact-sheet-final.jpg",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260611-techmoneylab-contact-sheet-final.jpg",
+  "updated_after_visual_qa": "2026-06-11T10:19:51Z"
+}
