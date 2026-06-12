@@ -1,0 +1,220 @@
+{
+  "site": "techmoneylab",
+  "slug": "hsa-receipt-audit-tax-record-checklist-2026",
+  "date": "2026-06-12",
+  "host": "gti13",
+  "endpoint": "redacted-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-hsa-receipt-audit-2026-hero.png",
+      "filename": "tml-hsa-receipt-audit-2026-hero.png",
+      "prompt": "realistic health savings account record review desk, sealed envelopes, blank folders, closed laptop, no forms, no text, no money",
+      "seed": 202606120601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "a64c95f4-2794-483c-aa1f-9b6bb957b0c6",
+      "comfy_output": {
+        "filename": "batch_d_20260612_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1564590
+    },
+    {
+      "file": "public/images/illustrations/tml-hsa-receipt-audit-2026-01.png",
+      "filename": "tml-hsa-receipt-audit-2026-01.png",
+      "prompt": "realistic HSA receipt sorting desk with blank envelopes and folders no readable receipts no numbers",
+      "seed": 202606120602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "ba3d3f30-5989-4874-90f9-0576fa289015",
+      "comfy_output": {
+        "filename": "batch_d_20260612_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1404461
+    },
+    {
+      "file": "public/images/illustrations/tml-hsa-receipt-audit-2026-02.png",
+      "filename": "tml-hsa-receipt-audit-2026-02.png",
+      "prompt": "realistic medical expense evidence archive with sealed plain folders and dark laptop screen no text",
+      "seed": 202606120603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "49b286e2-42be-4e8a-a271-246d821a9ce7",
+      "comfy_output": {
+        "filename": "batch_d_20260612_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1398136
+    },
+    {
+      "file": "public/images/illustrations/tml-hsa-receipt-audit-2026-03.png",
+      "filename": "tml-hsa-receipt-audit-2026-03.png",
+      "prompt": "realistic tax record checklist still life with blank index cards and pen no writing no forms",
+      "seed": 202606120604,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "76e2bf5a-c8fd-4056-bd6f-e18584bbf5b9",
+      "comfy_output": {
+        "filename": "batch_d_20260612_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1406923
+    },
+    {
+      "file": "public/images/illustrations/tml-hsa-receipt-audit-2026-04.png",
+      "filename": "tml-hsa-receipt-audit-2026-04.png",
+      "prompt": "realistic family healthcare budget review using plain colored tabs no money no calculator numbers",
+      "seed": 202606120605,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "f2b09f3e-3d52-4456-b0b3-ff62ab238382",
+      "comfy_output": {
+        "filename": "batch_d_20260612_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1628951
+    },
+    {
+      "file": "public/images/illustrations/tml-hsa-receipt-audit-2026-05.png",
+      "filename": "tml-hsa-receipt-audit-2026-05.png",
+      "prompt": "realistic secure document storage box with blank labels and neutral desk no readable details",
+      "seed": 202606120606,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "e2d8a3bf-6394-476f-8df6-874fe1d3b9eb",
+      "comfy_output": {
+        "filename": "batch_d_20260612_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1522192
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260612-techmoneylab-contact-sheet.jpg",
+  "visual_qa": "passed after contact-sheet inspection; rejected first-pass images were regenerated/excluded by overwrite; final sheet accepted",
+  "regenerations": {
+    "/home/taekm33/blog-ops/16-sites/toolspilot/public/images/illustrations/tsp-api-key-rotation-2026-03.png": {
+      "prompt": "abstract API security rotation still life with sealed envelope, blank card, hardware security token, soft light, no hands, no keys, no screens, no text",
+      "seed": 202606121001,
+      "prompt_id": "3a510783-53a2-4e94-abc9-31c547f80bd2",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_toolspilot_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1136758
+    },
+    "/home/taekm33/blog-ops/16-sites/toolspilot/public/images/illustrations/tsp-api-key-rotation-2026-04.png": {
+      "prompt": "cybersecurity incident response still life with closed notebook, sealed blank envelope, hardware security token, plain desk, no tools, no weapons, no keys, no text",
+      "seed": 202606121002,
+      "prompt_id": "c7121f9f-d0f3-41e2-8472-9ba0e79a6319",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_toolspilot_04_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1976654
+    },
+    "/home/taekm33/blog-ops/16-sites/toolspilot/public/images/illustrations/tsp-api-key-rotation-2026-05.png": {
+      "prompt": "small team security review table with closed laptops, face down dark phones, blank colored cards, no visible screens, no UI, no text",
+      "seed": 202606121003,
+      "prompt_id": "abc43f22-f03a-4b98-b7ba-e94bd472c828",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_toolspilot_05_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1281632
+    },
+    "/home/taekm33/blog-ops/16-sites/travelsavvypro/public/images/illustrations/tsv-hotel-fee-dispute-2026-04.png": {
+      "prompt": "hotel deposit hold evidence concept with plain blank colored rectangles, suitcase fabric, pen, no card shape, no logos, no numbers, no money",
+      "seed": 202606121004,
+      "prompt_id": "b32481e5-cad6-4f20-994e-23f32758783b",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_travelsavvypro_04_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1939855
+    },
+    "/home/taekm33/blog-ops/16-sites/travelsavvypro/public/images/illustrations/tsv-hotel-fee-dispute-2026-05.png": {
+      "prompt": "vacation rental fee evidence folder still life with closed tablet face down dark, blank folders, plant, no screen, no UI, no text",
+      "seed": 202606121005,
+      "prompt_id": "a0897a6d-47aa-461f-bad5-e432f8fdc352",
+      "comfy_output": {
+        "filename": "batch_d_20260612_regen_travelsavvypro_05_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1444644
+    }
+  },
+  "final_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260612-techmoneylab-contact-sheet-final.jpg"
+}
