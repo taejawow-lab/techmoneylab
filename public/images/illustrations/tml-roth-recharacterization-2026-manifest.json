@@ -1,0 +1,170 @@
+{
+  "site": "techmoneylab",
+  "slug": "roth-ira-contribution-recharacterization-checklist-2026",
+  "date": "2026-06-13",
+  "endpoint": "GTI13 direct ComfyUI (internal endpoint redacted in final report)",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "filename": "tml-roth-recharacterization-2026-hero.png",
+      "path": "public/images/illustrations/tml-roth-recharacterization-2026-hero.png",
+      "renderUrl": "/images/illustrations/tml-roth-recharacterization-2026-hero.png",
+      "prompt": "realistic retirement planning still life with sealed blank envelopes, plain folders, small lock, soft natural light, no calculator, no screens, no paper text",
+      "negative": "readable text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator buttons, calendar grid, fake paperwork, people, faces, children, hands closeup, watermark, low quality, distorted objects",
+      "seed": 202606131001,
+      "prompt_id": "33ceeabf-c53b-4397-aa45-4c8374d0aafd",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.8,
+      "steps": 28,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "tml-roth-recharacterization-2026-01.png",
+      "path": "public/images/illustrations/tml-roth-recharacterization-2026-01.png",
+      "renderUrl": "/images/illustrations/tml-roth-recharacterization-2026-01.png",
+      "prompt": "realistic IRA contribution planning still life with sealed envelope, blank sticky notes, closed laptop, no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130402,
+      "prompt_id": "afa5bf7b-a8f9-483b-a1a3-c586d934c3b7",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tml-roth-recharacterization-2026-02.png",
+      "path": "public/images/illustrations/tml-roth-recharacterization-2026-02.png",
+      "renderUrl": "/images/illustrations/tml-roth-recharacterization-2026-02.png",
+      "prompt": "realistic secure tax archive still life with closed kraft folders, plain wooden tray, small padlock, no papers visible, no forms, no writing, no lines",
+      "negative": "text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator, calendar, paperwork, cards with writing, first aid label, people, faces, children, hands, watermark, low quality, distorted",
+      "seed": 202606132001,
+      "prompt_id": "96260e58-a85c-4b5f-80ef-edd531b25494",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.5,
+      "steps": 30,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final2_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true,
+      "qa_regenerated_final2": true
+    },
+    {
+      "filename": "tml-roth-recharacterization-2026-03.png",
+      "path": "public/images/illustrations/tml-roth-recharacterization-2026-03.png",
+      "renderUrl": "/images/illustrations/tml-roth-recharacterization-2026-03.png",
+      "prompt": "realistic retirement account correction discussion represented by two coffee cups and blank notebook, no people faces no words",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130404,
+      "prompt_id": "95d22e67-d153-43fc-bee4-34efa590462d",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tml-roth-recharacterization-2026-04.png",
+      "path": "public/images/illustrations/tml-roth-recharacterization-2026-04.png",
+      "renderUrl": "/images/illustrations/tml-roth-recharacterization-2026-04.png",
+      "prompt": "realistic abstract retirement timing still life with smooth plain colored stones and blank cards, no numbers, no letters, no calendar",
+      "negative": "readable text, words, letters, numbers, logos, labels, forms, receipts, documents, passports, boarding passes, phone screen, UI, code, calculator buttons, calendar grid, fake paperwork, people, faces, children, hands closeup, watermark, low quality, distorted objects",
+      "seed": 202606131003,
+      "prompt_id": "2d9d0d02-f162-427e-a7d6-612d808c0823",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.8,
+      "steps": 28,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_final_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "filename": "tml-roth-recharacterization-2026-05.png",
+      "path": "public/images/illustrations/tml-roth-recharacterization-2026-05.png",
+      "renderUrl": "/images/illustrations/tml-roth-recharacterization-2026-05.png",
+      "prompt": "realistic secure document storage box with blank folders and small lock, no labels no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, passport text, document numbers, map labels, official seals, exposed wiring, fake dashboard, fake warning label, child face closeup, unsafe water scene, medicine labels",
+      "seed": 202606130406,
+      "prompt_id": "35f394ed-9886-4e7f-be03-b9ca4ad50eb5",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 26,
+      "source": "GTI13 direct ComfyUI",
+      "comfy_file": {
+        "filename": "hermes_batch_d_20260613_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "preflight": {
+    "ok": true,
+    "site": "techmoneylab",
+    "slug": "roth-ira-contribution-recharacterization-checklist-2026",
+    "title": "Roth IRA Contribution Recharacterization Checklist for 2026",
+    "candidate_tokens": [
+      "contribution",
+      "ira",
+      "recharacterization",
+      "roth"
+    ],
+    "threshold": 0.42,
+    "near_duplicates": []
+  },
+  "source_url_check_bad": [
+    [
+      "https://www.irs.gov/retirement-plans/ira-contribution-limits",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "https://www.finra.org/investors/investing/investment-products/retirement/roth-iras",
+      "HTTP Error 404: Not Found"
+    ]
+  ],
+  "final_visual_qa_note": "Final2 regenerated remaining rejects for text/document/people artifacts; contact sheet final2 used for QA."
+}
