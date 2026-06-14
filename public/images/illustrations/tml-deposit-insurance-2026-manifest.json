@@ -1,0 +1,179 @@
+{
+  "site": "techmoneylab",
+  "slug": "fdic-ncua-joint-account-beneficiary-insurance-checklist-2026",
+  "title": "FDIC and NCUA Joint Account Beneficiary Insurance Checklist for 2026",
+  "date": "2026-06-14",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "filename": "tml-deposit-insurance-2026-hero.png",
+      "file": "public/images/illustrations/tml-deposit-insurance-2026-hero.png",
+      "prompt": "realistic household banking planning desk with blank bank cards turned face down, sealed envelopes, plain folders, no text no numbers no logos",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606140601,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "83adf012-78cf-4a4e-b9fc-401634dd8c30",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1558209
+    },
+    {
+      "filename": "tml-deposit-insurance-2026-01.png",
+      "file": "public/images/illustrations/tml-deposit-insurance-2026-01.png",
+      "prompt": "bank account ownership planning with plain folders and blank cards no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606140602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "0e0f8d54-571b-4f9a-a546-87e85e9f1cd3",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1469708
+    },
+    {
+      "filename": "tml-deposit-insurance-2026-02.png",
+      "file": "public/images/illustrations/tml-deposit-insurance-2026-02.png",
+      "prompt": "joint account conversation at kitchen table with sealed envelopes and blank laptop screen",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606140603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "f5a7f091-2683-488d-9377-420cd02f2d00",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1510857
+    },
+    {
+      "filename": "tml-deposit-insurance-2026-03.png",
+      "file": "public/images/illustrations/tml-deposit-insurance-2026-03.png",
+      "prompt": "beneficiary checklist desk with blank sticky notes and no writing",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606140604,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "1613c289-4da4-43b9-b976-3250377a2d65",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1450050
+    },
+    {
+      "filename": "tml-deposit-insurance-2026-04.png",
+      "file": "public/images/illustrations/tml-deposit-insurance-2026-04.png",
+      "prompt": "credit union membership review as abstract still life, plain sealed envelopes and blank matte cards on table, no forms, no writing, no currency, no calculator, no phone screen, no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606154889,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true,
+      "prompt_id": "32f2a5ca-201f-456e-be83-61579e5ea834",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_regen_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1658172
+    },
+    {
+      "filename": "tml-deposit-insurance-2026-05.png",
+      "file": "public/images/illustrations/tml-deposit-insurance-2026-05.png",
+      "prompt": "bank merger paperwork organization with blank folders no readable documents",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable label, screen text, UI screenshot, fake interface, fake document, form, receipt, calculator numbers, currency, QR code, barcode, passport, medical chart, prescription label text, child face closeup, unsafe child scene, bad hands, distorted objects, low quality, blurry, placeholder, generic stock art",
+      "seed": 202606140606,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "524c6c50-f522-4ea8-8a14-9c919ecbb6c5",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260614_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1418374
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260614-techmoneylab-contact-sheet-final.jpg",
+  "sources": [
+    "https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/joint-accounts",
+    "https://www.fdic.gov/financial-institution-employees-guide-deposit-insurance/account-ownership-categories",
+    "https://www.fdic.gov/resources/deposit-insurance/brochures/insured-deposits",
+    "https://edie.fdic.gov/",
+    "https://ncua.gov/consumers/share-insurance-coverage",
+    "https://mycreditunion.gov/insurance-estimator",
+    "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
+    "https://www.federalreserve.gov/supervisionreg/topics/consumer_compliance.htm"
+  ],
+  "qa_note": "Final manifest after visual-QA regenerations on 2026-06-14; rejected images replaced before staging."
+}
