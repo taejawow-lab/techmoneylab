@@ -1,0 +1,117 @@
+{
+  "site": "techmoneylab",
+  "slug": "529-plan-rollover-roth-ira-custodian-checklist-2026",
+  "title": "529 Plan to Roth IRA Rollover Custodian Checklist for 2026",
+  "date": "2026-06-15",
+  "gti13_only": true,
+  "endpoint_redacted": "direct GTI13 ComfyUI endpoint verified by gate",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "count_1536x864_png": 6,
+  "images": [
+    {
+      "file": "public/images/illustrations/tml-529-roth-rollover-2026-hero.png",
+      "role": "hero",
+      "seed": 861599000,
+      "prompt": "neutral financial planning still life with closed blank folders, sealed plain envelope, dark laptop screen, no calculator, no papers with lines, no money, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ddc87732-534a-4474-8649-41fad6ab2224",
+      "remote": {
+        "filename": "tml-529-roth-rollover-2026-hero-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "file": "public/images/illustrations/tml-529-roth-rollover-2026-01.png",
+      "role": "01",
+      "seed": 861500001,
+      "prompt": "realistic custodian paperwork review with blank forms in folders and dark phone screen no readable writing no logos",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8f1d6a20-76e1-43f9-abff-c151b4145981",
+      "remote": {
+        "filename": "tml-529-roth-rollover-2026-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-529-roth-rollover-2026-02.png",
+      "role": "02",
+      "seed": 861500002,
+      "prompt": "realistic retirement planning still life with piggy bank, blank cards, closed laptop, no coins, no text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4529745b-e295-40ab-8570-ec0025346df6",
+      "remote": {
+        "filename": "tml-529-roth-rollover-2026-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-529-roth-rollover-2026-03.png",
+      "role": "03",
+      "seed": 861500003,
+      "prompt": "realistic parent and young adult reviewing blank account folders at kitchen table no screens no labels",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ecf444ee-5f47-4217-9ff5-290dd2c9fc78",
+      "remote": {
+        "filename": "tml-529-roth-rollover-2026-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-529-roth-rollover-2026-04.png",
+      "role": "04",
+      "seed": 861599001,
+      "prompt": "plain archival folder stack and sealed envelope on clean desk, no forms, no printed lines, no numbers, no calculator, no coins",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "95e8731b-f3e6-4eeb-a7f2-6661a657d6bc",
+      "remote": {
+        "filename": "tml-529-roth-rollover-2026-04-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    },
+    {
+      "file": "public/images/illustrations/tml-529-roth-rollover-2026-05.png",
+      "role": "05",
+      "seed": 861599002,
+      "prompt": "minimal finance planning desk with blank colored cards and closed notebook, no calendar grid, no numbers, no calculator, no screen text",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5ef47f38-08bd-4456-8c53-f9172e84e937",
+      "remote": {
+        "filename": "tml-529-roth-rollover-2026-05-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": true
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/tml-529-roth-rollover-2026-contact-sheet-final.jpg",
+  "visual_qa": {
+    "status": "passed",
+    "review": "final contact sheet visually inspected; regenerated/replaced rejected assets; no readable text/logos/UI or safety/privacy blockers observed",
+    "contact_sheet": "public/images/illustrations/tml-529-roth-rollover-2026-contact-sheet-final.jpg"
+  }
+}
