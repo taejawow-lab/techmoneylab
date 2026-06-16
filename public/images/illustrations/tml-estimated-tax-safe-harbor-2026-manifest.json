@@ -1,0 +1,178 @@
+{
+  "site": "techmoneylab",
+  "slug": "estimated-tax-safe-harbor-underpayment-checklist-2026",
+  "date": "2026-06-16",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-estimated-tax-safe-harbor-2026-hero.png",
+      "filename": "tml-estimated-tax-safe-harbor-2026-hero.png",
+      "prompt": "still life of plain sealed envelopes, blank colored cards, closed laptop, smooth wooden desk, no calculator, no money, no papers with markings, no people",
+      "positive_prompt": "still life of plain sealed envelopes, blank colored cards, closed laptop, smooth wooden desk, no calculator, no money, no papers with markings, no people, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161201,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ee2998df-6eea-44bc-83db-21520ed719e3",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1465132,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-estimated-tax-safe-harbor-2026-01.png",
+      "filename": "tml-estimated-tax-safe-harbor-2026-01.png",
+      "prompt": "plain household tax planning desk with blank quarterly envelopes and closed laptop, no text, no numbers, no forms",
+      "positive_prompt": "plain household tax planning desk with blank quarterly envelopes and closed laptop, no text, no numbers, no forms, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, safe factual scene, absolutely no embedded text, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, barcodes, QR codes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, child face, people closeup, readable, low quality, distorted objects, unsafe scene, fake official paper",
+      "seed": 202606160602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "76756fd5-d1d1-4485-ae3c-defbe7e55085",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1499342,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-estimated-tax-safe-harbor-2026-02.png",
+      "filename": "tml-estimated-tax-safe-harbor-2026-02.png",
+      "prompt": "still life of four plain ceramic jars and blank colored blocks for cash flow planning, no money, no coins, no numbers, no people",
+      "positive_prompt": "still life of four plain ceramic jars and blank colored blocks for cash flow planning, no money, no coins, no numbers, no people, professional realistic editorial still life photography, 16:9, natural light, high detail, safe factual scene, absolutely no embedded text, no logos, no brands, no readable markings",
+      "negative_prompt": "person, people, human, face, eyes, skin, hands, child, text, words, letters, numbers, keyboard letters, calculator, money, currency, coins, bills, passport text, form, document text, label, logo, brand, QR, barcode, UI, screen content, map text, handwriting, low quality, distorted",
+      "seed": 202606161202,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9939d44d-f38b-4992-a4a2-0f7c70a45a5a",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_final_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1227995,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-estimated-tax-safe-harbor-2026-03.png",
+      "filename": "tml-estimated-tax-safe-harbor-2026-03.png",
+      "prompt": "estimated tax payment proof organization scene with sealed blank envelope and dark phone screen, no UI no text",
+      "positive_prompt": "estimated tax payment proof organization scene with sealed blank envelope and dark phone screen, no UI no text, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, safe factual scene, absolutely no embedded text, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, barcodes, QR codes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, child face, people closeup, readable, low quality, distorted objects, unsafe scene, fake official paper",
+      "seed": 202606160604,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "587119df-5c53-42de-aa2e-ad02d135e128",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1372801,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-estimated-tax-safe-harbor-2026-04.png",
+      "filename": "tml-estimated-tax-safe-harbor-2026-04.png",
+      "prompt": "year-to-date income review workspace with blank paper blocks and closed laptop, no charts no words",
+      "positive_prompt": "year-to-date income review workspace with blank paper blocks and closed laptop, no charts no words, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, safe factual scene, absolutely no embedded text, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, barcodes, QR codes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, child face, people closeup, readable, low quality, distorted objects, unsafe scene, fake official paper",
+      "seed": 202606160605,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "efe7726a-14b8-43f2-9064-ee4f843824d9",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1326484,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-estimated-tax-safe-harbor-2026-05.png",
+      "filename": "tml-estimated-tax-safe-harbor-2026-05.png",
+      "prompt": "safe harbor checklist scene with color-coded blank sticky notes on cork board, no writing no calendar no numbers",
+      "positive_prompt": "safe harbor checklist scene with color-coded blank sticky notes on cork board, no writing no calendar no numbers, professional realistic editorial photography, 16:9, natural light, high detail, topic accurate, safe factual scene, absolutely no embedded text, no logos, no brands, no readable papers, blank screens only",
+      "negative_prompt": "text, words, letters, numbers, barcodes, QR codes, label, logo, brand, watermark, document, form, receipt, UI, screen content, code editor, calendar, handwriting, face, child face, people closeup, readable, low quality, distorted objects, unsafe scene, fake official paper",
+      "seed": 202606160606,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d683993a-e15e-4573-abdd-cd4ca1a80814",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260616_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2032502,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.5,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260616-techmoneylab-contact-sheet-final.jpg",
+  "visual_qa_status": "pending-human/agent-contact-sheet-review",
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260616-techmoneylab-contact-sheet-final.jpg",
+  "updated_after_visual_qa": "2026-06-16T00:00:00Z"
+}
