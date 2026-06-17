@@ -1,0 +1,184 @@
+{
+  "site": "techmoneylab",
+  "slug": "credit-card-chargeback-evidence-folder-checklist-2026",
+  "date": "2026-06-17",
+  "endpoint": "redacted-direct-gti13",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-chargeback-evidence-20260617-hero.png",
+      "filename": "tml-chargeback-evidence-20260617-hero.png",
+      "prompt": "realistic personal finance evidence folder still life with closed plain folders, sealed envelope, pen, blank index cards, no laptop, no calculator, no payment cards, no receipts, no text",
+      "positive_prompt": "realistic personal finance evidence folder still life with closed plain folders, sealed envelope, pen, blank index cards, no laptop, no calculator, no payment cards, no receipts, no text, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1d644233-5978-4a06-b59f-f0dbc6bf0928",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1583092,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-chargeback-evidence-20260617-01.png",
+      "filename": "tml-chargeback-evidence-20260617-01.png",
+      "prompt": "realistic receipt evidence folder with blank papers turned away, colored tabs without words, no readable text",
+      "positive_prompt": "realistic receipt evidence folder with blank papers turned away, colored tabs without words, no readable text, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170602,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e375e53d-aa2b-46cf-b49d-0165b75e69ee",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1548834,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-chargeback-evidence-20260617-02.png",
+      "filename": "tml-chargeback-evidence-20260617-02.png",
+      "prompt": "realistic merchant contact timeline represented by plain sticky notes on board, no writing, no calendar grid",
+      "positive_prompt": "realistic merchant contact timeline represented by plain sticky notes on board, no writing, no calendar grid, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment screen, login form, passport, official seal, barcode, fake label, child face closeup, bad hands, distorted objects, unsafe scene, low quality, blurry, cartoon, placeholder, stock art",
+      "seed": 202606170603,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9f351047-3cf9-41ae-a5a7-49de1720ab05",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1485811,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/tml-chargeback-evidence-20260617-03.png",
+      "filename": "tml-chargeback-evidence-20260617-03.png",
+      "prompt": "realistic plain cardboard package with shipping label fully removed and covered, blank folder beside it, no barcode, no text, no logos",
+      "positive_prompt": "realistic plain cardboard package with shipping label fully removed and covered, blank folder beside it, no barcode, no text, no logos, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "06e21dfc-0489-4389-9f38-e96a330ab61e",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1596666,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-chargeback-evidence-20260617-04.png",
+      "filename": "tml-chargeback-evidence-20260617-04.png",
+      "prompt": "realistic dispute evidence folder with sealed envelope, plain colored tabs, pen, no calculator, no cards, no forms, no text",
+      "positive_prompt": "realistic dispute evidence folder with sealed envelope, plain colored tabs, pen, no calculator, no cards, no forms, no text, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171003,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9574c84c-48d8-4128-81bf-7800fb417655",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1586594,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/tml-chargeback-evidence-20260617-05.png",
+      "filename": "tml-chargeback-evidence-20260617-05.png",
+      "prompt": "realistic follow-up planning desk with closed plain notebook, blank sticky notes turned away, pen, no readable words, no checklist text, no screens",
+      "positive_prompt": "realistic follow-up planning desk with closed plain notebook, blank sticky notes turned away, pen, no readable words, no checklist text, no screens, professional realistic editorial photography, no readable text, safe still life",
+      "negative_prompt": "readable text, words, letters, numbers, logo, watermark, brand, UI, screen content, calendar grid, document text, handwriting, QR code, payment card, currency, receipt, form, barcode, official seal, calculator, phone screen, laptop screen, child face, people face, label, packaging label, medical label, low quality, blurry, distorted objects",
+      "seed": 202606171004,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "eb2f1b17-0e67-49ce-aac9-62de593f2db2",
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260617_qa_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1437137,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "regenerated_for_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260617-techmoneylab-contact-sheet-final.jpg",
+  "preflight": {
+    "rc": 0,
+    "out": "{\n  \"ok\": true,\n  \"site\": \"techmoneylab\",\n  \"slug\": \"credit-card-chargeback-evidence-folder-checklist-2026\",\n  \"title\": \"Credit Card Chargeback Evidence Folder Checklist for 2026\",\n  \"candidate_tokens\": [\n    \"card\",\n    \"chargeback\",\n    \"credit\",\n    \"evidence\",\n    \"folder\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "err": ""
+  },
+  "final_visual_qa_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260617-techmoneylab-contact-sheet-final.jpg",
+  "updated_after_visual_qa": "2026-06-17T10:21:18Z"
+}
