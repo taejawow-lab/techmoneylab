@@ -1,0 +1,76 @@
+{
+  "site": "techmoneylab",
+  "slug": "inherited-ira-10-year-rule-beneficiary-checklist-2026",
+  "date": "2026-06-19",
+  "host": "gti13",
+  "endpoint_redacted": true,
+  "visual_qa": "accepted contact sheet after rejecting text/UI/face/label-risk assets",
+  "assets": [
+    {
+      "filename": "tml-inherited-ira-10yr-20260619-hero.png",
+      "file": "public/images/illustrations/tml-inherited-ira-10yr-20260619-hero.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1502338,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tml-inherited-ira-10yr-20260619-01.png",
+      "file": "public/images/illustrations/tml-inherited-ira-10yr-20260619-01.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1475957,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tml-inherited-ira-10yr-20260619-02.png",
+      "file": "public/images/illustrations/tml-inherited-ira-10yr-20260619-02.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1443229,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tml-inherited-ira-10yr-20260619-03.png",
+      "file": "public/images/illustrations/tml-inherited-ira-10yr-20260619-03.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1565195,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    },
+    {
+      "filename": "tml-inherited-ira-10yr-20260619-04.png",
+      "file": "public/images/illustrations/tml-inherited-ira-10yr-20260619-04.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1313168,
+      "host": "gti13",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "accepted_after_visual_qa"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260619-techmoneylab-contact-sheet-accepted.jpg"
+}
