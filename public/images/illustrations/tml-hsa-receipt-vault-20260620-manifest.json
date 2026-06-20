@@ -1,0 +1,107 @@
+{
+  "site": "techmoneylab",
+  "slug": "hsa-receipt-vault-qualified-medical-expense-checklist-2026",
+  "date": "2026-06-20",
+  "host": "gti13",
+  "endpoint": "direct ComfyUI (internal redacted in report)",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, document numbers, map labels, official seals, fake dashboard, fake warning label, child face closeup, visible currency, receipts with text, calculators with numbers, medical forms, passports, license plates",
+  "assets": [
+    {
+      "filename": "tml-hsa-receipt-vault-20260620-hero.png",
+      "render_url": "/images/illustrations/tml-hsa-receipt-vault-20260620-hero.png",
+      "prompt_id": "fc47b1bb-c423-44de-95d8-fa502c1562f3",
+      "prompt": "realistic health savings account recordkeeping desk with closed folders, blank cards, blank laptop screen, no receipts with text, no numbers",
+      "seed": 620859,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tml-hsa-receipt-vault-20260620_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tml-hsa-receipt-vault-20260620-01.png",
+      "render_url": "/images/illustrations/tml-hsa-receipt-vault-20260620-01.png",
+      "prompt_id": "2a9ffdbc-8956-4127-a7a9-d1e6adf1094d",
+      "prompt": "realistic family medical expense folder organization with plain envelopes and color tabs, no readable labels, no forms",
+      "seed": 620860,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tml-hsa-receipt-vault-20260620_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tml-hsa-receipt-vault-20260620-02.png",
+      "render_url": "/images/illustrations/tml-hsa-receipt-vault-20260620-02.png",
+      "prompt_id": "06452204-4d8b-46c9-8ca1-3d95f6ae26be",
+      "prompt": "realistic pharmacy and clinic receipt vault concept using blank sealed envelopes, neutral desk, no readable text",
+      "seed": 620861,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tml-hsa-receipt-vault-20260620_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tml-hsa-receipt-vault-20260620-03.png",
+      "render_url": "/images/illustrations/tml-hsa-receipt-vault-20260620-03.png",
+      "prompt_id": "1d44bc8c-211d-4002-9246-20ac2309a3de",
+      "prompt": "realistic HSA recordkeeping still life of only plain unmarked kraft envelopes and blank pastel folders on wooden desk, no cards, no paper text, no laptop, no devices, no labels",
+      "seed": 877059,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 32,
+      "cfg": 4.8,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tml-hsa-receipt-vault-20260620_00007_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated": "final2"
+    },
+    {
+      "filename": "tml-hsa-receipt-vault-20260620-04.png",
+      "render_url": "/images/illustrations/tml-hsa-receipt-vault-20260620-04.png",
+      "prompt_id": "4c290086-ac01-4cb7-860f-be6d67cfd1e9",
+      "prompt": "realistic reimbursement decision workspace with plain calendar blocks and blank notebook, no words no UI",
+      "seed": 620863,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "tml-hsa-receipt-vault-20260620_00005_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "final_visual_qa_note": "Final2 regeneration for remaining text/label/child-face risks; contact sheet rewritten."
+}
