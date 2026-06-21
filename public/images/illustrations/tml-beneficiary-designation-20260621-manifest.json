@@ -1,0 +1,110 @@
+{
+  "site": "techmoneylab",
+  "slug": "estate-beneficiary-designation-review-checklist-2026",
+  "date": "2026-06-21",
+  "endpoint_host": "gti13 direct ComfyUI (internal URL redacted in report)",
+  "comfy_url": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "tml-beneficiary-designation-20260621-hero.png",
+      "file": "public/images/illustrations/tml-beneficiary-designation-20260621-hero.png",
+      "prompt": "realistic estate planning desk with sealed folders, blank cards, family photo turned face down, no text no money",
+      "seed": 202606210001,
+      "prompt_id": "2cf9b7f0-c13e-4caa-8990-ad6c74cebdf3",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1350439,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tml-beneficiary-designation-20260621-01.png",
+      "file": "public/images/illustrations/tml-beneficiary-designation-20260621-01.png",
+      "prompt": "realistic estate planning still life with closed laptop dark blank screen, sealed plain folders, blank cards, no papers with lines, no readable text, no forms",
+      "seed": 202606212001,
+      "prompt_id": "bf638ce3-a408-4366-950d-7379e9b5af65",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1248299,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_regen_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "filename": "tml-beneficiary-designation-20260621-02.png",
+      "file": "public/images/illustrations/tml-beneficiary-designation-20260621-02.png",
+      "prompt": "realistic retirement account paperwork represented by blank envelopes and secure folder, no readable documents",
+      "seed": 202606210003,
+      "prompt_id": "52a527e4-6ada-4430-abfa-e31511fe38f1",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1332693,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "tml-beneficiary-designation-20260621-03.png",
+      "file": "public/images/illustrations/tml-beneficiary-designation-20260621-03.png",
+      "prompt": "realistic beneficiary review folder system with colored blank divider tabs, closed envelopes, no papers, no forms, no writing, no numbers",
+      "seed": 202606212002,
+      "prompt_id": "2f00111b-10fa-4837-bc1c-31e16a251d68",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1152687,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_regen_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "filename": "tml-beneficiary-designation-20260621-04.png",
+      "file": "public/images/illustrations/tml-beneficiary-designation-20260621-04.png",
+      "prompt": "realistic family emergency binder still life with keys, sealed envelope, blank notebook, no people no text",
+      "seed": 202606210005,
+      "prompt_id": "83475af5-7376-4d74-aeff-e66c5535a054",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1789247,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260621_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/tml-beneficiary-designation-20260621-contact-sheet-final.jpg",
+  "visual_qa_status": "passed final contact-sheet review",
+  "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, document numbers, map labels, official seals, fake dashboard, fake warning label, child face closeup, readable forms, currency, coins, calculators with visible numbers",
+  "updated_after_visual_qa_regen": "2026-06-21T10:20:38Z"
+}
