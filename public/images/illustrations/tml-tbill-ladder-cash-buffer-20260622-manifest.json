@@ -1,0 +1,52 @@
+{
+  "site": "techmoneylab",
+  "slug": "treasury-bill-ladder-auto-renewal-cash-buffer-checklist-2026",
+  "date": "2026-06-22",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "visual_qa": "passed after excluding QA-rejected assets",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "filename": "tml-tbill-ladder-cash-buffer-20260622-hero.png",
+      "file": "public/images/illustrations/tml-tbill-ladder-cash-buffer-20260622-hero.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tml-tbill-ladder-cash-buffer-20260622-01.png",
+      "file": "public/images/illustrations/tml-tbill-ladder-cash-buffer-20260622-01.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tml-tbill-ladder-cash-buffer-20260622-02.png",
+      "file": "public/images/illustrations/tml-tbill-ladder-cash-buffer-20260622-02.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tml-tbill-ladder-cash-buffer-20260622-03.png",
+      "file": "public/images/illustrations/tml-tbill-ladder-cash-buffer-20260622-03.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "tml-tbill-ladder-cash-buffer-20260622-05.png",
+      "file": "public/images/illustrations/tml-tbill-ladder-cash-buffer-20260622-05.png",
+      "dimensions": [
+        1536,
+        864
+      ]
+    }
+  ]
+}
