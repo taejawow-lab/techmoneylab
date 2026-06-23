@@ -1,0 +1,121 @@
+{
+  "site": "techmoneylab",
+  "slug": "checking-account-beneficiary-payable-on-death-checklist-2026",
+  "generated_at": "2026-06-23T10:14:44Z",
+  "host": "gti13",
+  "endpoint": "redacted-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "file": "public/images/illustrations/tml-pod-beneficiary-checking-20260623-hero.png",
+      "filename": "tml-pod-beneficiary-checking-20260623-hero.png",
+      "prompt": "realistic personal finance desk with sealed blank envelopes, bank card face down, family folder, no text no logos no numbers",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230001,
+      "prompt_id": "05fc83e5-79e5-4819-bbb4-2451a4d7f9a5",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1592281,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-pod-beneficiary-checking-20260623-01.png",
+      "filename": "tml-pod-beneficiary-checking-20260623-01.png",
+      "prompt": "realistic estate planning still life with plain folder tabs, pen, eyeglasses, blank cards, no readable documents",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230002,
+      "prompt_id": "f212d61e-9b46-41ae-98f3-4711d01ff67a",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1652692,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-pod-beneficiary-checking-20260623-02.png",
+      "filename": "tml-pod-beneficiary-checking-20260623-02.png",
+      "prompt": "realistic bank account review scene with laptop closed, phone face down, sealed envelope, no screens no text",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230003,
+      "prompt_id": "5a6e83b1-ce25-413e-8077-3e11861cbf06",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1521574,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-pod-beneficiary-checking-20260623-03.png",
+      "filename": "tml-pod-beneficiary-checking-20260623-03.png",
+      "prompt": "realistic survivor access planning desk with keys, blank notebook, neutral folder, warm light, no forms no labels",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230004,
+      "prompt_id": "c3627c81-202b-4a4f-ad06-50f252e9b35d",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1733350,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/tml-pod-beneficiary-checking-20260623-04.png",
+      "filename": "tml-pod-beneficiary-checking-20260623-04.png",
+      "prompt": "realistic household records lockbox with plain folders and blank index cards, no documents no numbers",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, fake forms, fake documents, fake receipts, distorted interface, QR code, barcode, calendar grid, handwriting, medical label, legal document, financial statement, child face closeup, readable name tag, license plate, passport text, unsafe scene, raw meat, exposed wires, bad hands, bad anatomy, low quality, blurry, cartoon, placeholder, generic stock art",
+      "seed": 202606230005,
+      "prompt_id": "6f8eca12-c496-49e2-be9d-997cb3dfd163",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1682846,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260623_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "visual_qa": "contact sheet created; manual visual QA required before final commit",
+  "contact_sheet": "public/images/illustrations/tml-pod-beneficiary-checking-20260623-contact-sheet.jpg"
+}
