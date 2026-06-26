@@ -1,0 +1,38 @@
+{
+  "site": "techmoneylab",
+  "slug": "irs-direct-pay-estimated-tax-proof-checklist-2026",
+  "date": "2026-06-26",
+  "image_source": "GTI15 ComfyUI direct endpoint after gate+smoke pass",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    {
+      "render_url": "/images/illustrations/tml-irs-direct-pay-proof-2026-01.png",
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_gti15_20260626/techmoneylab/support/20260626_191453_realvis_4008055583.png",
+      "qa": "PASS visual QA: no readable text/UI/forms/calculators/currency/people/hands/logos"
+    },
+    {
+      "render_url": "/images/illustrations/tml-irs-direct-pay-proof-2026-02.png",
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_gti15_20260626/techmoneylab/support/20260626_191510_juggernaut_4008055584.png",
+      "qa": "PASS visual QA: no readable text/UI/forms/calculators/currency/people/hands/logos"
+    },
+    {
+      "render_url": "/images/illustrations/tml-irs-direct-pay-proof-2026-03.png",
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_gti15_20260626_round2/techmoneylab/safe1/20260626_192345_realvis_3966573766.png",
+      "qa": "PASS visual QA: no readable text/UI/forms/calculators/currency/people/hands/logos"
+    },
+    {
+      "render_url": "/images/illustrations/tml-irs-direct-pay-proof-2026-04.png",
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_gti15_20260626_round2/techmoneylab/safe1/20260626_192401_juggernaut_3966573767.png",
+      "qa": "PASS visual QA: no readable text/UI/forms/calculators/currency/people/hands/logos"
+    },
+    {
+      "render_url": "/images/illustrations/tml-irs-direct-pay-proof-2026-05.png",
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_gti15_20260626_round2/techmoneylab/safe2/20260626_192419_krea_962194671.png",
+      "qa": "PASS visual QA: no readable text/UI/forms/calculators/currency/people/hands/logos"
+    }
+  ],
+  "rejected_summary": [
+    "initial finance candidates with visible checklist text, calendar numbers, calculator/form surfaces were rejected",
+    "only blank-folder/envelope/filebox still-life rasters were retained"
+  ]
+}
