@@ -1,0 +1,28 @@
+{
+  "site": "techmoneylab",
+  "slug": "gig-worker-quarterly-tax-cash-buffer-checklist-2026",
+  "date": "2026-06-28",
+  "gti15_endpoint": "redacted direct GTI15 ComfyUI endpoint verified by gate",
+  "selected_labels": [
+    8,
+    9,
+    12,
+    14,
+    15
+  ],
+  "images": [
+    "tml-gig-tax-buffer-20260628-hero.png",
+    "tml-gig-tax-buffer-20260628-support-1.png",
+    "tml-gig-tax-buffer-20260628-support-2.png",
+    "tml-gig-tax-buffer-20260628-support-3.png",
+    "tml-gig-tax-buffer-20260628-support-4.png"
+  ],
+  "source_paths": [
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/techmoneylab/regen3/20260628_192143_realvis_4044371768.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/techmoneylab/regen3/20260628_192158_juggernaut_4044371769.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/techmoneylab/regen4/20260628_192302_juggernaut_3756640772.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/techmoneylab/regen5/20260628_193053_realvis_957540158.png",
+    "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_d_20260628_gti15/techmoneylab/regen5/20260628_193108_juggernaut_957540159.png"
+  ],
+  "visual_qa": "accepted after contact-sheet visual QA; rejected earlier candidates with readable text/UI/labels/forms/screens/calendars/currency as applicable"
+}
