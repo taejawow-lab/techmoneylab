@@ -1,0 +1,57 @@
+{
+  "site": "techmoneylab",
+  "slug": "medical-debt-credit-report-dispute-checklist-2026",
+  "date": "2026-06-30",
+  "gate": "GTI15 gate passed before generation",
+  "endpoint_host": "gti15 direct ComfyUI endpoint redacted in public report",
+  "assets": [
+    {
+      "render_url": "/images/illustrations/tml-medical-debt-dispute-20260630-1.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/techmoneylab_c/20260630_192217_krea_578066509.png",
+      "filename": "tml-medical-debt-dispute-20260630-1.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tml-medical-debt-dispute-20260630-2.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/techmoneylab_c/20260630_192249_realvis_578066510.png",
+      "filename": "tml-medical-debt-dispute-20260630-2.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tml-medical-debt-dispute-20260630-3.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/techmoneylab_c/20260630_192305_juggernaut_578066511.png",
+      "filename": "tml-medical-debt-dispute-20260630-3.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tml-medical-debt-dispute-20260630-4.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/techmoneylab_d/20260630_192320_krea_1107127176.png",
+      "filename": "tml-medical-debt-dispute-20260630-4.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tml-medical-debt-dispute-20260630-5.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/techmoneylab_d/20260630_192353_realvis_1107127177.png",
+      "filename": "tml-medical-debt-dispute-20260630-5.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    },
+    {
+      "render_url": "/images/illustrations/tml-medical-debt-dispute-20260630-6.png",
+      "source_path": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batchd_20260630/techmoneylab_a/20260630_191312_realvis_3898195166.png",
+      "filename": "tml-medical-debt-dispute-20260630-6.png",
+      "dimensions": "1536x864",
+      "source": "GTI15 ComfyUI via generate_natural_blog_candidates",
+      "qa": "accepted from visual contact-sheet QA"
+    }
+  ]
+}
