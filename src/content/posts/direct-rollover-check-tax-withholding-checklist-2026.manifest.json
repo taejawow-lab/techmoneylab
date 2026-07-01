@@ -1,0 +1,23 @@
+{
+  "site": "techmoneylab",
+  "slug": "direct-rollover-check-tax-withholding-checklist-2026",
+  "created": "2026-07-01",
+  "generator": "GTI15 ComfyUI via generate_natural_blog_candidates.py",
+  "endpoint_host": "gti15 redacted direct endpoint",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    "/images/illustrations/tml-direct-rollover-20260701-1.png",
+    "/images/illustrations/tml-direct-rollover-20260701-2.png",
+    "/images/illustrations/tml-direct-rollover-20260701-3.png",
+    "/images/illustrations/tml-direct-rollover-20260701-4.png",
+    "/images/illustrations/tml-direct-rollover-20260701-5.png"
+  ],
+  "selected_sources": [
+    "pass1/20260701_191221_krea_3996168192.png",
+    "pass1/20260701_191255_realvis_3996168193.png",
+    "pass1/20260701_191310_juggernaut_3996168194.png",
+    "pass2/20260701_191358_realvis_108406091.png",
+    "pass2/20260701_191414_juggernaut_108406092.png"
+  ],
+  "visual_qa": "manual contact-sheet QA passed for selected images; rejected images excluded where applicable"
+}
