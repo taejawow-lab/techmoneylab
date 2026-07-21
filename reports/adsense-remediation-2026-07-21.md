@@ -48,3 +48,22 @@ Google AdSense again classified the site as low-value content. This release prep
 ## Review-window rule
 
 Do not resume broad automated publishing for TechMoneyLab or make bulk public-corpus changes until the next AdSense decision. Drafted articles should return only after bespoke editorial repair and the same deterministic gate. Unrelated portfolio sites are outside this hold.
+
+## Independent follow-up audit
+
+A three-lane read-only audit completed after the first remediation and identified two additional trust risks. This follow-up release therefore:
+
+- removes the nonfunctional newsletter form, the false success message, and unsupported `12,400+ subscribers` / `4.8/5 reader rating` claims;
+- replaces the retained `real-estate-investing-platforms` and `side-hustle-income-tools` articles, which contained unsupported first-person test claims, with `irs-direct-pay-estimated-tax-proof-checklist-2026` and `family-529-qualified-expense-checklist-2026`;
+- rewrites residual AdSense/process-facing copy in the two replacement guides;
+- broadens the experience-claim gate to catch `we ran`, `we looked`, `we benchmarked`, and `we compared` in addition to prior testing verbs;
+- adds source and built-homepage gates against the removed newsletter/social-proof markers;
+- repairs narrow-screen header, hero CTA, title wrapping, article-table overflow, and mobile navigation safeguards.
+
+Follow-up verification:
+
+- `npm run qa:adsense`: PASS — 20 public articles; minimum body words 775, sources 8, article images 3; zero failures.
+- `npm run build`: PASS — 169 static pages including `noindex` tombstones; sitemap still contains exactly 20 article routes and zero tag routes.
+- `npm run qa:adsense:dist`: PASS.
+- True 390×844 CSS-pixel Chrome emulation: `innerWidth=390`, `scrollWidth=390`, zero overflowing elements, no newsletter form/fake count, mobile menu visible.
+- Mobile-menu interaction: `aria-expanded=true`, drawer open, `display:flex`, five navigation links.

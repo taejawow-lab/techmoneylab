@@ -5,7 +5,6 @@ import Hero from '../components/Hero.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import TrustStrip from '../components/TrustStrip.astro';
 import CompoundCalculator from '../components/CompoundCalculator.astro';
-import Newsletter from '../components/Newsletter.astro';
 
 const posts = (await getCollection('posts'))
   .filter((post) => !post.data.draft)
@@ -102,5 +101,4 @@ function filterKey(category = '', title = '') {
   )}
 
   <CompoundCalculator />
-  <Newsletter />
 </BaseLayout>

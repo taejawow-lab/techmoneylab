@@ -128,19 +128,6 @@
     calc();
   }
 
-  /* ---------- NEWSLETTER ---------- */
-  var nf = document.getElementById("news-form");
-  if (nf) {
-    nf.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var ok = nf.querySelector(".news-ok");
-      var email = nf.querySelector("input[type=email]").value;
-      if (!email) return;
-      ok.textContent = "✓ You're in — a verified read lands in your inbox every Tuesday.";
-      nf.querySelector("input[type=email]").value = "";
-    });
-  }
-
   /* ---------- REVEAL ON SCROLL ---------- */
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {

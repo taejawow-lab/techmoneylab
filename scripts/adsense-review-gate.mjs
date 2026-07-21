@@ -23,7 +23,7 @@ for(const file of files){
     if(images<3) failures.push(`${slug}: ${images} article images < 3`);
     if(banned.test(raw)) failures.push(`${slug}: production/review language exposed`);
     if(/title:\s*["']?[^\n]*\btested\b/i.test(fm)) failures.push(`${slug}: unsupported tested claim in title`);
-    if(/\b(?:our|we|I)\s+(?:test(?:ed)?|used|opened|bought|tried|subscribed)\b/i.test(body)) failures.push(`${slug}: unsupported first-person experience claim`);
+    if(/\b(?:our|we|I)\s+(?:test(?:ed|ing)?|used|opened|bought|tried|subscribed|ran|looked|benchmarked|compared)\b/i.test(raw)) failures.push(`${slug}: unsupported first-person experience claim`);
     for(const link of body.matchAll(/\/posts\/([a-z0-9-]+)/g)) if(!keep.has(link[1])) failures.push(`${slug}: internal link points to drafted post ${link[1]}`);
     for(const para of body.split(/\n\s*\n+/)){
       const p=plain(para).toLowerCase(); const wc=(p.match(/\b[\w’'-]+\b/g)||[]).length;
@@ -46,6 +46,16 @@ if(!astro.includes('REVIEW_POST_SET.has')) failures.push('sitemap review-corpus 
 if(!tags.includes('noindex={true}')) failures.push('tag noindex missing');
 if(about.includes('techmoneylab.org')) failures.push('About email still uses .org');
 if(!ads.startsWith('google.com, pub-3526385510396286, DIRECT,')) failures.push('ads.txt publisher row missing');
+const header=fs.readFileSync(path.join(root,'src/components/Header.astro'),'utf8');
+const home=fs.readFileSync(path.join(root,'src/pages/index.astro'),'utf8');
+const appJs=fs.readFileSync(path.join(root,'public/tml-app.js'),'utf8');
+const css=fs.readFileSync(path.join(root,'src/styles/global.css'),'utf8');
+const uiCorpus=[header,home,appJs].join('\n');
+for(const marker of ['12,400+','Reader rating',"You're in —",'news-form']) if(uiCorpus.includes(marker)) failures.push(`unsupported newsletter/social-proof marker: ${marker}`);
+if(fs.existsSync(path.join(root,'src/components/Newsletter.astro'))) failures.push('nonfunctional newsletter component still exists');
+if(!header.includes('data-menu-toggle') || !css.includes('.menu-toggle { display: grid; }')) failures.push('mobile navigation control missing');
+if(/\.hero h1 br\s*\{[^}]*display\s*:\s*none/i.test(css)) failures.push('mobile hero hard break is disabled');
+if(!css.includes('.hero-cta { flex-direction: column;')) failures.push('mobile hero CTA stacking guard missing');
 if(process.argv.includes('--dist')){
   const sm=fs.readFileSync(path.join(root,'dist/sitemap-0.xml'),'utf8');
   const urls=[...sm.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
@@ -56,6 +66,9 @@ if(process.argv.includes('--dist')){
   const tombstone=fs.readFileSync(path.join(root,'dist/posts/best-online-brokerages-2026/index.html'),'utf8');
   if(!/noindex/i.test(tombstone) || !tombstone.includes('Article temporarily unavailable')) failures.push('draft tombstone missing noindex/notice');
   if(tombstone.includes('We opened accounts at five brokerages')) failures.push('stale drafted article leaked into tombstone');
+  const builtHome=fs.readFileSync(path.join(root,'dist/index.html'),'utf8');
+  for(const marker of ['12,400+','Reader rating',"You're in —",'news-form']) if(builtHome.includes(marker)) failures.push(`built homepage contains unsupported marker: ${marker}`);
+  if(!builtHome.includes('Browse guides')) failures.push('built homepage/header is missing Browse guides CTA');
 }
 const result={status:failures.length?'FAIL':'PASS',publicCount:publicRows.length,minWords:Math.min(...publicRows.map(x=>x.words)),minSources:Math.min(...publicRows.map(x=>x.sources)),minImages:Math.min(...publicRows.map(x=>x.images)),failures,publicRows};
 console.log(JSON.stringify(result,null,2));
