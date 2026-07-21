@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'techmoneylab';
 const siteDescription = import.meta.env.PUBLIC_SITE_DESCRIPTION || '';
 const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
 const hasIllust = import.meta.env.PUBLIC_HAS_ABOUT_ILLUSTRATION === 'true';
@@ -50,7 +50,7 @@ const hasIllust = import.meta.env.PUBLIC_HAS_ABOUT_ILLUSTRATION === 'true';
             </ul>
 
             <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em] mt-12" style="font-family: var(--font-display);">제휴·협업·정정 요청</h2>
-            <p>이메일: <a href={`mailto:editor@${siteName.toLowerCase()}.org`} class="underline underline-offset-4 decoration-accent hover:text-primary">editor@{siteName.toLowerCase()}.org</a></p>
+            <p>이메일: <a href={`mailto:editor@${siteName.toLowerCase()}.net`} class="underline underline-offset-4 decoration-accent hover:text-primary">editor@{siteName.toLowerCase()}.net</a></p>
           </>
         ) : (
           <>
@@ -66,7 +66,7 @@ const hasIllust = import.meta.env.PUBLIC_HAS_ABOUT_ILLUSTRATION === 'true';
             </ul>
 
             <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em] mt-12" style="font-family: var(--font-display);">Contact for Corrections, Tips, or Partnerships</h2>
-            <p>Email: <a href={`mailto:editor@${siteName.toLowerCase()}.org`} class="underline underline-offset-4 decoration-accent hover:text-primary">editor@{siteName.toLowerCase()}.org</a></p>
+            <p>Email: <a href={`mailto:editor@${siteName.toLowerCase()}.net`} class="underline underline-offset-4 decoration-accent hover:text-primary">editor@{siteName.toLowerCase()}.net</a></p>
           </>
         )}
       </div>

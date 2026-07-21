@@ -5,17 +5,21 @@ import ArticleCard from '../../components/ArticleCard.astro';
 
 export async function getStaticPaths() {
   const posts = (await getCollection('posts')).filter((p) => !p.data.draft);
-  const cats = [...new Set(posts.map((p) => p.data.category).filter(Boolean))];
-  return cats.map((cat) => {
-    const slug = cat.toLowerCase().trim().replace(/\s+/g, '-');
-    const catPosts = posts
-      .filter((p) => p.data.category === cat)
-      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-    return {
-      params: { category: slug },
-      props: { category: cat, posts: catPosts },
-    };
-  });
+  const groups = new Map();
+  for (const post of posts) {
+    const label = post.data.category || 'General';
+    const slug = label.toLowerCase().trim().replace(/\s+/g, '-');
+    const current = groups.get(slug) || { label, posts: [] };
+    current.posts.push(post);
+    groups.set(slug, current);
+  }
+  return [...groups.entries()].map(([slug, group]) => ({
+    params: { category: slug },
+    props: {
+      category: group.label,
+      posts: group.posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()),
+    },
+  }));
 }
 
 const { category, posts } = Astro.props;

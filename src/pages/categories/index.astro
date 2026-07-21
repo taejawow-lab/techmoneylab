@@ -10,14 +10,15 @@ const posts = (await getCollection('posts'))
 
 const siteName = import.meta.env.PUBLIC_SITE_NAME || '';
 const byCategory = posts.reduce((acc, post) => {
-  const category = post.data.category || 'general';
-  if (!acc[category]) acc[category] = [];
-  acc[category].push(post);
+  const category = post.data.category || 'General';
+  const slug = categorySlug(category);
+  if (!acc[slug]) acc[slug] = { category, posts: [] };
+  acc[slug].posts.push(post);
   return acc;
-}, {} as Record<string, typeof posts>);
+}, {} as Record<string, { category: string; posts: typeof posts }>);
 
-const categories = Object.entries(byCategory)
-  .map(([category, categoryPosts]) => ({ category, posts: categoryPosts, latest: categoryPosts[0] }))
+const categories = Object.values(byCategory)
+  .map(({ category, posts: categoryPosts }) => ({ category, posts: categoryPosts, latest: categoryPosts[0] }))
   .sort((a, b) => a.category.localeCompare(b.category));
 ---
 

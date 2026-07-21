@@ -58,7 +58,7 @@ faq:
     answer: "Stripe is the standard payment processor for businesses accepting payments for their own products. Stripe Connect is the platform-payments framework for marketplaces, SaaS platforms, and businesses that route payments to third-party sellers (think Etsy, Substack, Patreon). Connect adds complexity (Standard, Express, Custom account types, payouts to connected accounts) but is required for platform business models. Standard businesses do not need Connect."
   - question: "Can I avoid processing fees by accepting ACH or bank transfers instead?"
     answer: "Yes, for B2B transactions where customers can pay by ACH. Stripe and Square both support ACH at lower rates (typically 0.8 to 1.0 percent, capped at 5 to 8 dollars per transaction) versus 2.9 percent for credit cards. The friction is real — ACH requires the customer to enter bank account info or use Plaid integration, which converts at lower rates than credit card payments. For invoices above 500 dollars to B2B clients, offering ACH as the preferred option saves meaningful processing cost."
-draft: false
+draft: true
 ---
 
 import ProductBox from '../../components/ProductBox.astro';
