@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
+import { REVIEW_POST_SET } from './src/config/review-corpus.mjs';
 import mdx from '@astrojs/mdx';
 
 // 사이트별 환경 변수에서 site URL 읽음 (자동 셋업 스크립트가 .env 자동 생성)
@@ -13,7 +14,12 @@ export default defineConfig({
       applyBaseStyles: false, // global.css에서 직접 베이스 스타일 작성
     }),
     sitemap({
-      filter: (page) => !new URL(page).pathname.startsWith('/tags/'),
+      filter: (page) => {
+      const pathname = new URL(page).pathname;
+      if (pathname.startsWith('/tags/')) return false;
+      const match = pathname.match(/^\/posts\/([^/]+)\/$/);
+      return !match || REVIEW_POST_SET.has(match[1]);
+    },
     }),
     mdx(),
   ],

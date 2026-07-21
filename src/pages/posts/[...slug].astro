@@ -1,36 +1,54 @@
 ---
 import { getCollection } from 'astro:content';
 import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { REVIEW_POST_SET } from '../../config/review-corpus.mjs';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts
-    .filter((post) => !post.data.draft)
-    .map((post) => ({
-      params: { slug: post.slug },
-      props: post,
-    }));
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
 }
 
 const post = Astro.props;
-const { Content, headings } = await post.render();
+const isReviewPost = REVIEW_POST_SET.has(post.slug);
+const rendered = isReviewPost ? await post.render() : null;
 ---
 
-<ArticleLayout
-  title={post.data.title}
-  description={post.data.description}
-  pubDate={post.data.pubDate}
-  updatedDate={post.data.updatedDate}
-  heroImage={post.data.heroImage}
-  tags={post.data.tags}
-  category={post.data.category}
-  sources={post.data.sources}
-  affiliate={post.data.affiliate}
-  visualsCount={post.data.visualsCount}
-  hasVideo={post.data.hasVideo}
-  headings={headings}
-  faq={post.data.faq}
-  internalLinks={post.data.internalLinks}
->
-  <Content />
-</ArticleLayout>
+{isReviewPost && rendered ? (
+  <ArticleLayout
+    title={post.data.title}
+    description={post.data.description}
+    pubDate={post.data.pubDate}
+    updatedDate={post.data.updatedDate}
+    heroImage={post.data.heroImage}
+    tags={post.data.tags}
+    category={post.data.category}
+    sources={post.data.sources}
+    affiliate={post.data.affiliate}
+    visualsCount={post.data.visualsCount}
+    hasVideo={post.data.hasVideo}
+    headings={rendered.headings}
+    faq={post.data.faq}
+    internalLinks={post.data.internalLinks}
+  >
+    <rendered.Content />
+  </ArticleLayout>
+) : (
+  <BaseLayout
+    title="Article under editorial review"
+    description="This page is temporarily unavailable while its evidence and reader value are reviewed."
+    noindex={true}
+  >
+    <main class="wrap" style="min-height: 65vh; padding-block: clamp(80px, 12vw, 160px);">
+      <article style="max-width: 760px;">
+        <p class="kicker">EDITORIAL NOTICE</p>
+        <h1>Article temporarily unavailable</h1>
+        <p>This guide is undergoing an evidence and usefulness review. It will return only after it meets our current editorial standards.</p>
+        <p><a href="/posts/">Browse the current reviewed guides →</a></p>
+      </article>
+    </main>
+  </BaseLayout>
+)}

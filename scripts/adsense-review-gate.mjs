@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 const root=process.cwd();
-const keep=new Set(["60-40-portfolio-vanguard-data","backdoor-roth-ira-pro-rata-checklist-2026","credit-card-autopay-bill-audit-2026","credit-card-autopay-minimum-payment-cashflow-checklist-2026","direct-rollover-check-tax-withholding-checklist-2026","dividend-investing-vs-total-return","fdic-sweep-treasury-ladder-cash-plan-2026","hsa-vs-fsa-2026-benefits-election-guide","emergency-fund-rate-drop-cash-ladder-2026","real-estate-investing-platforms","ira-rollover-60-day-rule-checklist-2026","roth-ira-contribution-recharacterization-checklist-2026","roth-ira-income-limits-2026-contribution-workflow","roth-ira-vs-traditional-401k-data","side-hustle-income-tools","solo-401k-vs-sep-ira-2026","target-date-fund-glide-path-comparison","tax-loss-harvesting-rules-roi","sp500-index-funds-voo-vs-ivv-vs-spy","tax-withholding-safe-harbor-paycheck-plan-2026"]);
+import { REVIEW_POST_SET as keep } from '../src/config/review-corpus.mjs';
 const dir=path.join(root,'src/content/posts');
 const files=fs.readdirSync(dir).filter(x=>x.endsWith('.mdx'));
 const banned=/AdSense[- ]?readiness|future AdSense review|publishing (?:run|workflow)|SEO filler|generated[- ]image QA|deployment workflow|Final readiness pass before publishing/i;
@@ -19,7 +19,7 @@ for(const file of files){
     publicRows.push({slug,words,sources,images});
     if(!keep.has(slug)) failures.push(`${slug}: public but not in allowlist`);
     if(words<750) failures.push(`${slug}: ${words} body words < 750`);
-    if(sources<3) failures.push(`${slug}: ${sources} source URLs < 3`);
+    if(sources<8) failures.push(`${slug}: ${sources} source URLs < 8`);
     if(images<3) failures.push(`${slug}: ${images} article images < 3`);
     if(banned.test(raw)) failures.push(`${slug}: production/review language exposed`);
     if(/title:\s*["']?[^\n]*\btested\b/i.test(fm)) failures.push(`${slug}: unsupported tested claim in title`);
@@ -42,6 +42,7 @@ const tags=fs.readFileSync(path.join(root,'src/pages/tags/[tag].astro'),'utf8');
 const about=fs.readFileSync(path.join(root,'src/pages/about.astro'),'utf8');
 const ads=fs.readFileSync(path.join(root,'public/ads.txt'),'utf8');
 if(!astro.includes("pathname.startsWith('/tags/')")) failures.push('sitemap tag filter missing');
+if(!astro.includes('REVIEW_POST_SET.has')) failures.push('sitemap review-corpus filter missing');
 if(!tags.includes('noindex={true}')) failures.push('tag noindex missing');
 if(about.includes('techmoneylab.org')) failures.push('About email still uses .org');
 if(!ads.startsWith('google.com, pub-3526385510396286, DIRECT,')) failures.push('ads.txt publisher row missing');
@@ -52,6 +53,9 @@ if(process.argv.includes('--dist')){
   const tagUrls=urls.filter(x=>new URL(x).pathname.startsWith('/tags/'));
   if(posts.length!==20) failures.push(`dist sitemap post count ${posts.length} != 20`);
   if(tagUrls.length!==0) failures.push(`dist sitemap has ${tagUrls.length} tag URLs`);
+  const tombstone=fs.readFileSync(path.join(root,'dist/posts/best-online-brokerages-2026/index.html'),'utf8');
+  if(!/noindex/i.test(tombstone) || !tombstone.includes('Article temporarily unavailable')) failures.push('draft tombstone missing noindex/notice');
+  if(tombstone.includes('We opened accounts at five brokerages')) failures.push('stale drafted article leaked into tombstone');
 }
 const result={status:failures.length?'FAIL':'PASS',publicCount:publicRows.length,minWords:Math.min(...publicRows.map(x=>x.words)),minSources:Math.min(...publicRows.map(x=>x.sources)),minImages:Math.min(...publicRows.map(x=>x.images)),failures,publicRows};
 console.log(JSON.stringify(result,null,2));
