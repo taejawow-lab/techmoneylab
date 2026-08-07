@@ -15,11 +15,11 @@ export default defineConfig({
     }),
     sitemap({
       filter: (page) => {
-      const pathname = new URL(page).pathname;
-      if (pathname.startsWith('/tags/')) return false;
-      const match = pathname.match(/^\/posts\/([^/]+)\/$/);
-      return !match || REVIEW_POST_SET.has(match[1]);
-    },
+        const { pathname } = new URL(page);
+        const segments = pathname.split('/').filter(Boolean);
+        const isAllowedReviewPost = segments[0] !== 'posts' || segments.length !== 2 || REVIEW_POST_SET.has(segments[1]);
+        return !pathname.startsWith('/tags/') && pathname !== '/search/' && !pathname.startsWith('/posts/page/') && isAllowedReviewPost;
+      },
     }),
     mdx(),
   ],
