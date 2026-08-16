@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-08-16",
+  "backend": "GTI15 ComfyUI",
+  "workflow": "generate_image",
+  "assets": [
+    {
+      "filename": "tml-bank-linked-app-audit-20260816-hero.png",
+      "source_filename": "ComfyUI_00005_.png",
+      "prompt_id": "f7e5efb0-6caa-4b9d-81dd-4808134c8274",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "tml-bank-linked-app-audit-20260816-01.png",
+      "source_filename": "ComfyUI_00006_.png",
+      "prompt_id": "053c491b-64fa-401b-a7f5-bb05da18edf7",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "tml-bank-linked-app-audit-20260816-02.png",
+      "source_filename": "ComfyUI_00007_.png",
+      "prompt_id": "b03e0250-526a-49fe-8403-5389ff4391b1",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "tml-bank-linked-app-audit-20260816-03.png",
+      "source_filename": "ComfyUI_00029_.png",
+      "prompt_id": "25f14e75-9516-474d-9024-215c09021e58",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "tml-bank-linked-app-audit-20260816-04.png",
+      "source_filename": "ComfyUI_00030_.png",
+      "prompt_id": "cb92afcd-760c-4b6f-8b25-9c86013acecf",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    },
+    {
+      "filename": "tml-bank-linked-app-audit-20260816-05.png",
+      "source_filename": "ComfyUI_00010_.png",
+      "prompt_id": "d49ed527-96da-4832-93b6-d7fd22a95349",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "width": 1536,
+      "height": 864,
+      "accepted": true
+    }
+  ],
+  "qa": "final contact-sheet visual review passed after replacements on 2026-08-16"
+}
