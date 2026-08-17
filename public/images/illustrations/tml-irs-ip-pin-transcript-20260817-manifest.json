@@ -1,0 +1,142 @@
+{
+  "site": "techmoneylab",
+  "slug": "irs-ip-pin-tax-transcript-security-checklist-2026",
+  "date": "2026-08-17",
+  "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "tml-irs-ip-pin-transcript-20260817-hero.png",
+      "file": "public/images/illustrations/tml-irs-ip-pin-transcript-20260817-hero.png",
+      "prompt": "realistic editorial still life of a secure annual tax record review, closed laptop, sealed plain envelope, blank folders and a small lock, warm natural daylight, no people",
+      "negative_prompt": "readable text, words, letters, numbers, logos, watermark, brand marks, fake user interface, screen content, QR code, barcode, official seal, form, receipt, passport, boarding pass, currency, calculator, hands, people, faces, distorted object, duplicate object, bad anatomy, low resolution, illustration, cartoon, unsafe scene",
+      "prompt_id": "87fcf931-192e-4aaf-b55b-526da2200eca",
+      "seed": 202608170001,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1276914,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "tml-irs-ip-pin-transcript-20260817-01.png",
+      "file": "public/images/illustrations/tml-irs-ip-pin-transcript-20260817-01.png",
+      "prompt": "organized tax evidence layers represented by six distinct blank folders, plain archive box and metal key, overhead realistic photography, no papers with markings",
+      "negative_prompt": "readable text, words, letters, numbers, logos, watermark, brand marks, fake user interface, screen content, QR code, barcode, official seal, form, receipt, passport, boarding pass, currency, calculator, hands, people, faces, distorted object, duplicate object, bad anatomy, low resolution, illustration, cartoon, unsafe scene",
+      "prompt_id": "980be1a8-5eae-4442-bd77-1588c2f21a3e",
+      "seed": 202608170002,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1343771,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_techmoneylab_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "tml-irs-ip-pin-transcript-20260817-02.png",
+      "file": "public/images/illustrations/tml-irs-ip-pin-transcript-20260817-02.png",
+      "prompt": "secure annual record review still life using only a closed plain archive box, six blank folders, small metal lock, wooden dividers and soft daylight, no electronic devices, no papers outside folders",
+      "negative_prompt": "readable text, typography, words, letters, numbers, logo, watermark, brand, screen, user interface, keyboard, document, form, receipt, passport, identification card, boarding pass, QR code, barcode, official seal, currency, calculator, camera, people, person, human, child, hands, face, body, vehicle, license plate, road sign, distorted object, duplicate object, unsafe road, cartoon, illustration",
+      "prompt_id": "3f55ea36-a09d-4fb3-a251-add1257a09e7",
+      "seed": 202608171501,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1362801,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_regen_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "tml-irs-ip-pin-transcript-20260817-03.png",
+      "file": "public/images/illustrations/tml-irs-ip-pin-transcript-20260817-03.png",
+      "prompt": "annual review workload still life using smooth unmarked wooden blocks, plain sand timer, closed archive box and six blank colored folders, overhead realistic editorial photography",
+      "negative_prompt": "readable text, typography, words, letters, numbers, logo, watermark, brand, screen, user interface, keyboard, document, form, receipt, passport, identification card, boarding pass, QR code, barcode, official seal, currency, calculator, camera, people, person, human, child, hands, face, body, vehicle, license plate, road sign, distorted object, duplicate object, unsafe road, cartoon, illustration",
+      "prompt_id": "cc25a185-702a-4541-acd6-fff515286bdb",
+      "seed": 202608171502,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1485767,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_regen_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "tml-irs-ip-pin-transcript-20260817-04.png",
+      "file": "public/images/illustrations/tml-irs-ip-pin-transcript-20260817-04.png",
+      "prompt": "phishing separation scene with sealed trusted folder protected behind a small lock and discarded blank envelope outside, realistic still life, no text",
+      "negative_prompt": "readable text, words, letters, numbers, logos, watermark, brand marks, fake user interface, screen content, QR code, barcode, official seal, form, receipt, passport, boarding pass, currency, calculator, hands, people, faces, distorted object, duplicate object, bad anatomy, low resolution, illustration, cartoon, unsafe scene",
+      "prompt_id": "1cf93552-c1c2-40be-8bf2-23b89b73a717",
+      "seed": 202608170005,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1223225,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_techmoneylab_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    },
+    {
+      "filename": "tml-irs-ip-pin-transcript-20260817-05.png",
+      "file": "public/images/illustrations/tml-irs-ip-pin-transcript-20260817-05.png",
+      "prompt": "calm incident response evidence kit with sealed archive box, plain folders, telephone turned face down and notebook closed, no people, realistic photography",
+      "negative_prompt": "readable text, words, letters, numbers, logos, watermark, brand marks, fake user interface, screen content, QR code, barcode, official seal, form, receipt, passport, boarding pass, currency, calculator, hands, people, faces, distorted object, duplicate object, bad anatomy, low resolution, illustration, cartoon, unsafe scene",
+      "prompt_id": "1442ffea-4e4f-4694-af94-ae9876053014",
+      "seed": 202608170006,
+      "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1434404,
+      "accepted": true,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260817_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "PASS: final contact-sheet review; no readable text/logo/UI/people/distortion or topic-safety defect"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-d-20260817-techmoneylab-contact-sheet-final.jpg",
+  "qa_status": "PASSED",
+  "accepted_count": 6,
+  "rejected_excluded": []
+}
