@@ -642,3 +642,34 @@ a, button { -webkit-tap-highlight-color: transparent; }
 .prose-article ul, .prose-article ol { margin-block: 24px; }
 .prose-article li { margin-block: 10px; }
 .article-cover-img { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; }
+
+/* 2026-08-17 mobile article overflow guard: keep editorial shells inside the viewport. */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+main, article, header, footer, .wrap, .container, .article-head, .tp-article-shell, .prose, .prose-article {
+  min-width: 0;
+  max-width: 100%;
+}
+h1, h2, h3, .art-title, .article-head h1 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+article img, .prose img, .prose-article img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 640px) {
+  h1, .art-title, .article-head h1 {
+    text-wrap: wrap !important;
+    word-break: normal;
+  }
+  article table, .prose table, .prose-article table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
