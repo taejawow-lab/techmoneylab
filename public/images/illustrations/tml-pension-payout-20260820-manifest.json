@@ -1,0 +1,156 @@
+{
+  "site": "techmoneylab",
+  "slug": "pension-lump-sum-vs-monthly-annuity-decision-checklist-2026",
+  "date": "2026-08-20",
+  "backend": "GTI15 ComfyUI",
+  "endpoint": "http://192.168.50.31:8188",
+  "checkpoint": "RealVisXL_V5.0_fp16.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "accepted_count": 6,
+  "qa_status": "PASSED",
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/techmoneylab/reports/batch-d-20260820-techmoneylab-contact-sheet-final.jpg",
+  "candidate_outdir": "C:/Users/k8plus/AppData/Local/hermes/tmp/batchd-20260820-techmoneylab",
+  "assets": [
+    {
+      "slot": "hero",
+      "prompt": "defined benefit pension payout decision represented by one central closed archive box dividing into two physically distinct paths, one path with a single substantial smooth wooden block and the other with a long orderly sequence of identical small stone tokens, realistic editorial tabletop photography",
+      "positive_prompt": "defined benefit pension payout decision represented by one central closed archive box dividing into two physically distinct paths, one path with a single substantial smooth wooden block and the other with a long orderly sequence of identical small stone tokens, realistic editorial tabletop photography, professional editorial stock photo style, physically plausible objects, coherent scene, natural perspective, soft natural light, muted navy beige and warm wood palette, no artificial AI look, text-free, logo-free, watermark-free, no people, no hands, no faces, no readable labels, no electronic displays, no documents, no currency, no calculator, 16:9",
+      "negative_prompt": "people, person, human, child, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, brand, fake user interface, app dock, icons, browser window, code screen, laptop, monitor, phone, screen, keyboard, document, paper, form, receipt, certificate, pension statement, check, currency, coins, banknotes, calculator, label, barcode, QR code, official seal, distorted object, warped object, impossible geometry, duplicate object, floating object, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration",
+      "seed": 202608202301,
+      "status": "ACCEPTED",
+      "prompt_id": "3187e490-f4a0-4096-869b-bd3a0b21b4f8",
+      "file": "public/images/illustrations/tml-pension-payout-20260820-hero.png",
+      "filename": "tml-pension-payout-20260820-hero.png",
+      "bytes": 1788887,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260820_techmoneylab_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "accepted": true,
+      "visual_qa": "PASS: clean text-free overview of segmented recurring value units; no people, UI, logos, currency, forms, calculators, or distortions."
+    },
+    {
+      "slot": "01",
+      "prompt": "classic physical two-pan balance scale centered on a clean studio tabletop, the left pan holds exactly one large smooth blank wooden sphere, the right pan holds exactly six small identical smooth blank wooden spheres, spheres stay inside their pans, nothing else in scene, realistic editorial photography",
+      "negative_prompt": "people, person, face, hands, fingers, readable text, letters, alphabet blocks, scrabble tiles, numbers, logo, watermark, signature, brand, labels, nameplates, plaques, user interface, screen, phone, computer, document, paper, form, receipt, certificate, check, currency, coins, banknotes, calculator, barcode, QR code, official seal, filing cabinet, locker labels, distorted object, impossible geometry, duplicate object, clutter, blurry, cartoon, illustration",
+      "seed": 202608202601,
+      "prompt_id": "5b0597eb-e5ab-4ce0-975d-57e5725f83e5",
+      "file": "public/images/illustrations/tml-pension-payout-20260820-01.png",
+      "filename": "tml-pension-payout-20260820-01.png",
+      "bytes": 1357522,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260820_techmoneylab_regen_01_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ACCEPTED",
+      "accepted": true,
+      "visual_qa": "PASS after regeneration: clean physical balance comparison; accepted as payment-form comparison, with no text, UI, logos, people, currency, forms, calculators, or distortions."
+    },
+    {
+      "slot": "02",
+      "prompt": "survivor pension election represented by two interlocking plain wooden rings protected beneath one clear glass dome beside a separate single ring, physically plausible premium editorial still life",
+      "positive_prompt": "survivor pension election represented by two interlocking plain wooden rings protected beneath one clear glass dome beside a separate single ring, physically plausible premium editorial still life, professional editorial stock photo style, physically plausible objects, coherent scene, natural perspective, soft natural light, muted navy beige and warm wood palette, no artificial AI look, text-free, logo-free, watermark-free, no people, no hands, no faces, no readable labels, no electronic displays, no documents, no currency, no calculator, 16:9",
+      "negative_prompt": "people, person, human, child, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, brand, fake user interface, app dock, icons, browser window, code screen, laptop, monitor, phone, screen, keyboard, document, paper, form, receipt, certificate, pension statement, check, currency, coins, banknotes, calculator, label, barcode, QR code, official seal, distorted object, warped object, impossible geometry, duplicate object, floating object, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration",
+      "seed": 202608202303,
+      "status": "ACCEPTED",
+      "prompt_id": "70d3b05c-5225-49c4-9a0a-7c8d3bf639a8",
+      "file": "public/images/illustrations/tml-pension-payout-20260820-02.png",
+      "filename": "tml-pension-payout-20260820-02.png",
+      "bytes": 1607355,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260820_techmoneylab_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "accepted": true,
+      "visual_qa": "PASS: coherent survivor-election rings under protection; no forbidden artifacts or anatomy."
+    },
+    {
+      "slot": "03",
+      "prompt": "inflation and fixed pension purchasing power represented by a sequence of equal plain ceramic tokens beside a gently rising staircase of unmarked household supply boxes, all blank and closed, realistic side-lit editorial still life",
+      "positive_prompt": "inflation and fixed pension purchasing power represented by a sequence of equal plain ceramic tokens beside a gently rising staircase of unmarked household supply boxes, all blank and closed, realistic side-lit editorial still life, professional editorial stock photo style, physically plausible objects, coherent scene, natural perspective, soft natural light, muted navy beige and warm wood palette, no artificial AI look, text-free, logo-free, watermark-free, no people, no hands, no faces, no readable labels, no electronic displays, no documents, no currency, no calculator, 16:9",
+      "negative_prompt": "people, person, human, child, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, brand, fake user interface, app dock, icons, browser window, code screen, laptop, monitor, phone, screen, keyboard, document, paper, form, receipt, certificate, pension statement, check, currency, coins, banknotes, calculator, label, barcode, QR code, official seal, distorted object, warped object, impossible geometry, duplicate object, floating object, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration",
+      "seed": 202608202304,
+      "status": "ACCEPTED",
+      "prompt_id": "0ad44180-a9cd-4b43-90f4-0f5e1df28ae9",
+      "file": "public/images/illustrations/tml-pension-payout-20260820-03.png",
+      "filename": "tml-pension-payout-20260820-03.png",
+      "bytes": 1602375,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260820_techmoneylab_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "accepted": true,
+      "visual_qa": "PASS: fixed units against rising steps communicate inflation pressure; no text, UI, people, currency, forms, calculators, or distortions."
+    },
+    {
+      "slot": "04",
+      "prompt": "exactly two plain closed matte metal strongboxes on one clean studio tabletop, one on the left and one on the right, their blank side walls connected by a single solid blue metal conduit with a short transparent center section, one sealed blue capsule visible inside that center section, both boxes remain closed, no other containers, realistic editorial photography",
+      "negative_prompt": "people, person, face, hands, fingers, readable text, letters, alphabet blocks, scrabble tiles, numbers, logo, watermark, signature, brand, labels, nameplates, plaques, user interface, screen, phone, computer, document, paper, form, receipt, certificate, check, currency, coins, banknotes, calculator, barcode, QR code, official seal, filing cabinet, locker labels, distorted object, impossible geometry, duplicate object, clutter, blurry, cartoon, illustration",
+      "seed": 202608202602,
+      "prompt_id": "b9cff304-1652-4b75-a4f8-2b9d397909c1",
+      "file": "public/images/illustrations/tml-pension-payout-20260820-04.png",
+      "filename": "tml-pension-payout-20260820-04.png",
+      "bytes": 1461586,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260820_techmoneylab_regen_04_00003_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ACCEPTED",
+      "accepted": true,
+      "visual_qa": "PASS after regeneration: clean protected custody containers used as rollover checkpoints; no text, UI, logos, people, currency, forms, calculators, or distortions."
+    },
+    {
+      "slot": "05",
+      "prompt": "pension decision workflow represented by six distinct plain tabletop checkpoints leading from a closed archive box to two final protected containers, with a sand timer and transparent shield as risk controls, realistic overhead editorial photography",
+      "positive_prompt": "pension decision workflow represented by six distinct plain tabletop checkpoints leading from a closed archive box to two final protected containers, with a sand timer and transparent shield as risk controls, realistic overhead editorial photography, professional editorial stock photo style, physically plausible objects, coherent scene, natural perspective, soft natural light, muted navy beige and warm wood palette, no artificial AI look, text-free, logo-free, watermark-free, no people, no hands, no faces, no readable labels, no electronic displays, no documents, no currency, no calculator, 16:9",
+      "negative_prompt": "people, person, human, child, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, brand, fake user interface, app dock, icons, browser window, code screen, laptop, monitor, phone, screen, keyboard, document, paper, form, receipt, certificate, pension statement, check, currency, coins, banknotes, calculator, label, barcode, QR code, official seal, distorted object, warped object, impossible geometry, duplicate object, floating object, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration",
+      "seed": 202608202306,
+      "status": "ACCEPTED",
+      "prompt_id": "f6ef27b2-7210-4313-b895-56da7cab7f66",
+      "file": "public/images/illustrations/tml-pension-payout-20260820-05.png",
+      "filename": "tml-pension-payout-20260820-05.png",
+      "bytes": 1655888,
+      "width": 1536,
+      "height": 864,
+      "comfy_output": {
+        "filename": "hermes_batch_d_20260820_techmoneylab_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "accepted": true,
+      "visual_qa": "PASS: multiple sand timers communicate horizon sensitivity; no forbidden artifacts or distortion."
+    }
+  ],
+  "rejected_excluded": [
+    {
+      "slot": "01",
+      "reason": "first candidate contained fake letter blocks; subsequent semantic-mismatch candidates excluded"
+    },
+    {
+      "slot": "04",
+      "reason": "first candidate contained label-like cabinet plaques; subsequent semantic-mismatch candidates excluded"
+    }
+  ]
+}
