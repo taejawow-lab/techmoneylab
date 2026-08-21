@@ -22,6 +22,7 @@ export const REVIEW_POSTS = [
   "bank-linked-app-permission-audit-2026",
   "irs-ip-pin-tax-transcript-security-checklist-2026",
   "pension-lump-sum-vs-monthly-annuity-decision-checklist-2026",
+  "nonworking-spouse-ira-funding-earned-income-filing-status-test-2026",
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 750;

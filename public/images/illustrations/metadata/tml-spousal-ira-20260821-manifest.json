@@ -1,0 +1,125 @@
+{
+  "run_date": "2026-08-21",
+  "site": "techmoneylab",
+  "prefix": "tml-spousal-ira-20260821",
+  "backend": "GTI15 ComfyUI",
+  "publish_policy": "Final selected assets only; contact-sheet visual QA passed.",
+  "accepted": [
+    {
+      "prompt_id": "70291c79-3480-4d6e-ae60-53199b22aee9",
+      "remote": {
+        "filename": "gti15_natural_krea_00637_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\techmoneylab-f\\20260821_194545_krea_1212101311.png",
+      "bytes": 1338331,
+      "seconds": 32,
+      "engine": "krea",
+      "seed": 1212101311,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "techmoneylab-f",
+      "selected_index": 0,
+      "published_file": "tml-spousal-ira-20260821-hero.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "ac9e195e-12f2-49ab-ab38-141ac58203b7",
+      "remote": {
+        "filename": "gti15_natural_realvis_00365_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\techmoneylab-f\\20260821_194618_realvis_1212101312.png",
+      "bytes": 1225608,
+      "seconds": 15,
+      "engine": "realvis",
+      "seed": 1212101312,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "techmoneylab-f",
+      "selected_index": 1,
+      "published_file": "tml-spousal-ira-20260821-01.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "99c10718-0e87-4e6d-91c1-d18b1a057fd2",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00324_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\techmoneylab-f\\20260821_194633_juggernaut_1212101313.png",
+      "bytes": 1286538,
+      "seconds": 15,
+      "engine": "juggernaut",
+      "seed": 1212101313,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "techmoneylab-f",
+      "selected_index": 2,
+      "published_file": "tml-spousal-ira-20260821-02.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "b2108253-0d53-4a1f-b884-a4bcd684ba37",
+      "remote": {
+        "filename": "gti15_natural_krea_00638_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\techmoneylab-g\\20260821_194649_krea_1015312139.png",
+      "bytes": 1720841,
+      "seconds": 32,
+      "engine": "krea",
+      "seed": 1015312139,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "techmoneylab-g",
+      "selected_index": 0,
+      "published_file": "tml-spousal-ira-20260821-03.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "f41542e1-ac40-494f-a54c-82a62f0aec59",
+      "remote": {
+        "filename": "gti15_natural_realvis_00366_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\techmoneylab-g\\20260821_194721_realvis_1015312140.png",
+      "bytes": 1573473,
+      "seconds": 15,
+      "engine": "realvis",
+      "seed": 1015312140,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "techmoneylab-g",
+      "selected_index": 1,
+      "published_file": "tml-spousal-ira-20260821-04.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    },
+    {
+      "prompt_id": "62468907-1775-445c-92ae-fc8eb742fa23",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00325_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260821\\techmoneylab-g\\20260821_194737_juggernaut_1015312141.png",
+      "bytes": 1334160,
+      "seconds": 15,
+      "engine": "juggernaut",
+      "seed": 1015312141,
+      "status": "NEEDS_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_directory": "techmoneylab-g",
+      "selected_index": 2,
+      "published_file": "tml-spousal-ira-20260821-05.png",
+      "visual_qa": "PASS 2026-08-21; no fake/readable text, UI, logos, people, distortions, or unsafe/wrong-domain details in final selected set"
+    }
+  ],
+  "rejected_candidates_excluded": true,
+  "published_count": 6
+}

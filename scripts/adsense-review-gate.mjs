@@ -35,7 +35,7 @@ for(const file of files){
 }
 const publicSet=new Set(publicRows.map(x=>x.slug));
 for(const slug of keep) if(!publicSet.has(slug)) failures.push(`${slug}: allowlisted but not public`);
-if(publicRows.length!==23) failures.push(`public count ${publicRows.length} != 23`);
+if(publicRows.length!==24) failures.push(`public count ${publicRows.length} != 24`);
 for(const [p,slugs] of paragraphMap){ if(new Set(slugs).size>1) failures.push(`duplicate paragraph across ${[...new Set(slugs)].join(', ')}`); }
 const astro=fs.readFileSync(path.join(root,'astro.config.mjs'),'utf8');
 const tags=fs.readFileSync(path.join(root,'src/pages/tags/[tag].astro'),'utf8');
@@ -61,7 +61,7 @@ if(process.argv.includes('--dist')){
   const urls=[...sm.matchAll(/<loc>(.*?)<\/loc>/g)].map(x=>x[1]);
   const posts=urls.filter(x=>{ const seg=new URL(x).pathname.split('/').filter(Boolean); return seg.length===2 && seg[0]==='posts' && seg[1]!=='page'; });
   const tagUrls=urls.filter(x=>new URL(x).pathname.startsWith('/tags/'));
-  if(posts.length!==23) failures.push(`dist sitemap post count ${posts.length} != 23`);
+  if(posts.length!==24) failures.push(`dist sitemap post count ${posts.length} != 24`);
   if(tagUrls.length!==0) failures.push(`dist sitemap has ${tagUrls.length} tag URLs`);
   const tombstone=fs.readFileSync(path.join(root,'dist/posts/best-online-brokerages-2026/index.html'),'utf8');
   if(!/noindex/i.test(tombstone) || !tombstone.includes('Article temporarily unavailable')) failures.push('draft tombstone missing noindex/notice');
