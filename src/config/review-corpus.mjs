@@ -25,6 +25,7 @@ export const REVIEW_POSTS = [
   "nonworking-spouse-ira-funding-earned-income-filing-status-test-2026",
   "social-security-claiming-age-break-even-tax-checklist-2026",
   "medicare-irmaa-life-changing-event-appeal-worksheet-2026",
+  "first-year-rmd-deadline-aggregation-withholding-worksheet-2026",
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 750;

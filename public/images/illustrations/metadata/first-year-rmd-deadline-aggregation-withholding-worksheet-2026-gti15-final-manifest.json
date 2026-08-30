@@ -1,0 +1,64 @@
+{
+  "site": "techmoneylab",
+  "article": "first-year-rmd-deadline-aggregation-withholding-worksheet-2026.mdx",
+  "accepted": [
+    {
+      "index": 0,
+      "published_url": "/images/illustrations/tml-rmd-first-year-20260830-hero.png",
+      "engine": "krea",
+      "seed": 2026085000,
+      "prompt_id": "5e7cd041-f404-4889-b89f-387062644b9f",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_214654_krea_2026085000.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 1,
+      "published_url": "/images/illustrations/tml-rmd-first-year-20260830-01.png",
+      "engine": "krea",
+      "seed": 2026085001,
+      "prompt_id": "a7e5d395-82ec-4241-b304-329883dcde6a",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_214707_krea_2026085001.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 2,
+      "published_url": "/images/illustrations/tml-rmd-first-year-20260830-02.png",
+      "engine": "krea",
+      "seed": 2026086014,
+      "prompt_id": "9a023dfe-da4b-4cd3-9995-3ab3c4d3801b",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_215147_krea_2026086014.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 3,
+      "published_url": "/images/illustrations/tml-rmd-first-year-20260830-03.png",
+      "engine": "krea",
+      "seed": 2026085002,
+      "prompt_id": "fd4a5fdf-04bc-490d-91cd-c89ddc663da1",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_214721_krea_2026085002.png",
+      "visual_qa": "accepted_2026-08-30"
+    },
+    {
+      "index": 4,
+      "published_url": "/images/illustrations/tml-rmd-first-year-20260830-04.png",
+      "engine": "krea",
+      "seed": 2026083124,
+      "prompt_id": "352e2c35-9e5e-499d-9baa-3f748d173d42",
+      "width": 1536,
+      "height": 864,
+      "source_file": "20260830_212919_krea_2026083124.png",
+      "visual_qa": "accepted_2026-08-30"
+    }
+  ],
+  "accepted_count": 5,
+  "contact_sheet_qa": "batch-d-20260830 final contact sheet visually inspected; rejected generations excluded",
+  "generated_at": "2026-08-30"
+}
