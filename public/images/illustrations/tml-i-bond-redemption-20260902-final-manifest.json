@@ -1,0 +1,79 @@
+{
+  "site": "techmoneylab",
+  "run_date": "2026-09-02",
+  "backend": "GTI15 ComfyUI (internal endpoint redacted)",
+  "contact_sheet": "tml-i-bond-redemption-20260902-final-contact-sheet.jpg",
+  "qa": "strict visual QA passed for all selected assets",
+  "assets": [
+    {
+      "filename": "tml-i-bond-redemption-20260902-hero.png",
+      "sha256": "3a6be31f3cd73043b6d41ed39508c66546d9eefc872add30e57aeffe4632f7d3",
+      "width": 1536,
+      "height": 864,
+      "accepted": true,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": null,
+      "negative_prompt": null,
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260902-replacements\\techmoneylab\\01\\manifest.json"
+    },
+    {
+      "filename": "tml-i-bond-redemption-20260902-01.png",
+      "sha256": "77eb19f37618f6e33b77c33f08156991062138dcc51a832ee10b66c443e17f8e",
+      "width": 1536,
+      "height": 864,
+      "accepted": true,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": null,
+      "negative_prompt": null,
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260902-replacements\\techmoneylab\\02\\manifest.json"
+    },
+    {
+      "filename": "tml-i-bond-redemption-20260902-02.png",
+      "sha256": "702c846955a6b215b899efd5d67a86a682655d701213bded0f457bbf2f890298",
+      "width": 1536,
+      "height": 864,
+      "accepted": true,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": null,
+      "negative_prompt": null,
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260902-final5\\techmoneylab\\03\\manifest.json"
+    },
+    {
+      "filename": "tml-i-bond-redemption-20260902-03.png",
+      "sha256": "8d9b032bf8d19063c1b1e5377657d9cc0a151d93c9e6fac7c6699a8c737c3752",
+      "width": 1536,
+      "height": 864,
+      "accepted": true,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": null,
+      "negative_prompt": null,
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260902-final4\\techmoneylab\\04\\manifest.json"
+    },
+    {
+      "filename": "tml-i-bond-redemption-20260902-04.png",
+      "sha256": "4ecad9aa08f1d18be81e41bd4233ab90bfc8a288001e1d777e05bea1217e59bf",
+      "width": 1536,
+      "height": 864,
+      "accepted": true,
+      "engine": null,
+      "model": null,
+      "seed": null,
+      "prompt_id": null,
+      "prompt": null,
+      "negative_prompt": null,
+      "source_manifest": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-d-20260902-replacements\\techmoneylab\\04\\manifest.json"
+    }
+  ]
+}
